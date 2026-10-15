@@ -1,0 +1,2489 @@
+{
+ "files": [
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialNoAnomaly/art_daily_no_noise.csv",
+   "path": "nab/data/artificialNoAnomaly/art_daily_no_noise.csv",
+   "sha256": "ccb7743ac2de8ca110db4af796d11ba31a23ad448a28e353a935c15f637756bc",
+   "bytes": 116776
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialNoAnomaly/art_daily_perfect_square_wave.csv",
+   "path": "nab/data/artificialNoAnomaly/art_daily_perfect_square_wave.csv",
+   "sha256": "662ff0a295b81eb0ff8e81116a54a497cd6f6b07c19c7a5ea72cce494913ce62",
+   "bytes": 100816
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialNoAnomaly/art_daily_small_noise.csv",
+   "path": "nab/data/artificialNoAnomaly/art_daily_small_noise.csv",
+   "sha256": "c4b304229f69f108eaa024fb2406fcd4510c5c5d95cd0053e2da6989682e4e6d",
+   "bytes": 140187
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialNoAnomaly/art_flatline.csv",
+   "path": "nab/data/artificialNoAnomaly/art_flatline.csv",
+   "sha256": "1cc10761ddd6d55fb5f0d9cfc73610416abbb120ee14bb65eff288509a463397",
+   "bytes": 100816
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialNoAnomaly/art_noisy.csv",
+   "path": "nab/data/artificialNoAnomaly/art_noisy.csv",
+   "sha256": "ad455adeaf06852222500955f2aefe6bd389cc762ef68e7102ee543209c8607f",
+   "bytes": 140916
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialWithAnomaly/art_daily_flatmiddle.csv",
+   "path": "nab/data/artificialWithAnomaly/art_daily_flatmiddle.csv",
+   "sha256": "ea5df125947e9ee2b977ac3d341f3c2a029588862af97cae4a654fc56e838702",
+   "bytes": 140292
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialWithAnomaly/art_daily_jumpsdown.csv",
+   "path": "nab/data/artificialWithAnomaly/art_daily_jumpsdown.csv",
+   "sha256": "4af31802e87dff4b4ba3ceb21714ba9d905f7888e1f53d47cc6dd4f856f9debc",
+   "bytes": 140814
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialWithAnomaly/art_daily_jumpsup.csv",
+   "path": "nab/data/artificialWithAnomaly/art_daily_jumpsup.csv",
+   "sha256": "f79f92b93ee4f9c10e2dc552505e8880b0c618639ed5e0f9816e044b75c26456",
+   "bytes": 140548
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialWithAnomaly/art_daily_nojump.csv",
+   "path": "nab/data/artificialWithAnomaly/art_daily_nojump.csv",
+   "sha256": "65c85d1834376ed5e622f01721d478609577ea0df0a067c5a5ebe5edea03b077",
+   "bytes": 140478
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialWithAnomaly/art_increase_spike_density.csv",
+   "path": "nab/data/artificialWithAnomaly/art_increase_spike_density.csv",
+   "sha256": "0959d8871d5c1a3fc3120fb7421e4ef113fffb434af2889085b52aebdb69360c",
+   "bytes": 96869
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/artificialWithAnomaly/art_load_balancer_spikes.csv",
+   "path": "nab/data/artificialWithAnomaly/art_load_balancer_spikes.csv",
+   "sha256": "99f7130e54c7c3e818df8e3bdc0974cd241914bb14a10a9c3fa7c1374125d224",
+   "bytes": 101603
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv",
+   "sha256": "ab446fbd8b9f37507eb2fdb06315826d8daeef02e241133ce06e0ee571ba53d9",
+   "bytes": 105367
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv",
+   "sha256": "8942e498de7b40f1b4a6d802755592c09b8fb73ce8f658763a09cb9ea1ea94ac",
+   "bytes": 116041
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv",
+   "sha256": "01613e6f632d067f11a5dfd40a188b0789752b388d9bc77a398bd06333878a76",
+   "bytes": 119229
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv",
+   "sha256": "90ceabd570b449241ee24ff8a116a793979b7671ce4490707311bfea0e0aae1f",
+   "bytes": 106007
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv",
+   "sha256": "d768419037c9db269343822957314f57ee21a7d9a4d41df2add0d1ba45ba84de",
+   "bytes": 113675
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv",
+   "sha256": "749a15c2e1a4543c21fee9cbf3338cd8a7ed5f5f8a1308b9b099b06c2c66e66b",
+   "bytes": 116980
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv",
+   "sha256": "d936cea74682ed43ac96b778352d7de294c0b0c168f4a7e6817162346cdb28c1",
+   "bytes": 104962
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv",
+   "sha256": "f3433f8171f4dcea86c0c7af9996d0f166f812fa0f4567f1d5cd85d2d2cd69b4",
+   "bytes": 115788
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv",
+   "sha256": "ce3d6c6a652ed7c31a6dd3727a36e128fcac6fb2381c63267ad0fbc02eccd9df",
+   "bytes": 116626
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv",
+   "sha256": "a0e734a66098bb81833835f0839dadafbc8ae829c51494670ee8849e46eb5b63",
+   "bytes": 101626
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_network_in_257a54.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_network_in_257a54.csv",
+   "sha256": "39104b08f2e0a673b5137eb7681897fcadf0955fedf565740a6a94edc63a81a4",
+   "bytes": 117236
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/ec2_network_in_5abac7.csv",
+   "path": "nab/data/realAWSCloudwatch/ec2_network_in_5abac7.csv",
+   "sha256": "c27ef93f582af63bf42e80d804764cbe64ae987620f3cfab5477d6ebb3c6157e",
+   "bytes": 120827
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/elb_request_count_8c0756.csv",
+   "path": "nab/data/realAWSCloudwatch/elb_request_count_8c0756.csv",
+   "sha256": "74c26574a01ca9fb89dddb5021e2e13c3a93eb25dc640438a9acb1ceb00f1021",
+   "bytes": 101052
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/grok_asg_anomaly.csv",
+   "path": "nab/data/realAWSCloudwatch/grok_asg_anomaly.csv",
+   "sha256": "86a0abe9d58e376858d2fd4f4a438f1997e24c64a09e5af03accd4e1b372ac47",
+   "bytes": 131065
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv",
+   "path": "nab/data/realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv",
+   "sha256": "f115fbe6542159eed5612445bfa620708a28ab6b41349d1432bb15c3a3b8414d",
+   "bytes": 37339
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv",
+   "path": "nab/data/realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv",
+   "sha256": "d5df979ef85928769a016cd0f935919d8c2a113926e21e1eb3a5001d688760e2",
+   "bytes": 117806
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv",
+   "path": "nab/data/realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv",
+   "sha256": "6b712b922ab3b3404c5a629d64a570c390c99471ee8b9b0ff7665f553fda92c1",
+   "bytes": 113599
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAdExchange/exchange-2_cpc_results.csv",
+   "path": "nab/data/realAdExchange/exchange-2_cpc_results.csv",
+   "sha256": "d869ab165254f3ee77ee21fd9fab2be1d07c1f80b8133cf01bbaf2d768c2ac64",
+   "bytes": 58887
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAdExchange/exchange-2_cpm_results.csv",
+   "path": "nab/data/realAdExchange/exchange-2_cpm_results.csv",
+   "sha256": "1f01b9438566d2fe1ac446faa202a395ac86db9240a1955bc1f118c8eada2a19",
+   "bytes": 58313
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAdExchange/exchange-3_cpc_results.csv",
+   "path": "nab/data/realAdExchange/exchange-3_cpc_results.csv",
+   "sha256": "e70b24dba107a2589657cb3feb9ca5605b4f3f7de49ff445f32f5991bc0bdbe5",
+   "bytes": 55474
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAdExchange/exchange-3_cpm_results.csv",
+   "path": "nab/data/realAdExchange/exchange-3_cpm_results.csv",
+   "sha256": "74d354a94fb1730e14b469c7c1c6e99c2ad69af53afdb85f65220bd3cf01ce4a",
+   "bytes": 54949
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAdExchange/exchange-4_cpc_results.csv",
+   "path": "nab/data/realAdExchange/exchange-4_cpc_results.csv",
+   "sha256": "d4c13abd6f28594dc446f22106562ebe917fdbe76170f60a500c2a402ecc09e2",
+   "bytes": 60212
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realAdExchange/exchange-4_cpm_results.csv",
+   "path": "nab/data/realAdExchange/exchange-4_cpm_results.csv",
+   "sha256": "4e5c955b632145b77b93fba4a5e3bf615d47e00416e17091d64e05ae109c760e",
+   "bytes": 58931
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realKnownCause/ambient_temperature_system_failure.csv",
+   "path": "nab/data/realKnownCause/ambient_temperature_system_failure.csv",
+   "sha256": "230b68ccca20f59d562afd5d24ad52939c9b784386bed0054018358bf9120581",
+   "bytes": 233321
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realKnownCause/cpu_utilization_asg_misconfiguration.csv",
+   "path": "nab/data/realKnownCause/cpu_utilization_asg_misconfiguration.csv",
+   "sha256": "58ba65dc0737cfbac11b51514476d50c438d44011232144bb8d93f392df58f9f",
+   "bytes": 539274
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realKnownCause/ec2_request_latency_system_failure.csv",
+   "path": "nab/data/realKnownCause/ec2_request_latency_system_failure.csv",
+   "sha256": "98378580aa80157e057c61d59d81daddccc6c65a2c0c800e3f01f603b8215c3f",
+   "bytes": 123428
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realKnownCause/machine_temperature_system_failure.csv",
+   "path": "nab/data/realKnownCause/machine_temperature_system_failure.csv",
+   "sha256": "92bf5b87fc7f9bba8ca0b7ec63ccaac8cb4a1371a258e8c29a10ae9c018d82a4",
+   "bytes": 732223
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realKnownCause/nyc_taxi.csv",
+   "path": "nab/data/realKnownCause/nyc_taxi.csv",
+   "sha256": "d8fa6f7f0734bf5c8be12c52a94e20a82664c397d9dec4449156bd453d32856d",
+   "bytes": 265771
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realKnownCause/rogue_agent_key_hold.csv",
+   "path": "nab/data/realKnownCause/rogue_agent_key_hold.csv",
+   "sha256": "47b110baa8e3636574c1033dda1cce780873647fab58223d159d4fee6f180e86",
+   "bytes": 55527
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realKnownCause/rogue_agent_key_updown.csv",
+   "path": "nab/data/realKnownCause/rogue_agent_key_updown.csv",
+   "sha256": "9797cfef477c13306f7a33874ab4d6cf700f8f2c7e5825a2a5bc02004370909a",
+   "bytes": 138333
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTraffic/TravelTime_387.csv",
+   "path": "nab/data/realTraffic/TravelTime_387.csv",
+   "sha256": "38e70e9ead8227fd023bff6e93247d5bc01ee008f781b921a156962419b399bb",
+   "bytes": 59846
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTraffic/TravelTime_451.csv",
+   "path": "nab/data/realTraffic/TravelTime_451.csv",
+   "sha256": "7c174adfc457b201cd111d60688f7ec37eb7201c8080790dc41eeff477bd7345",
+   "bytes": 51918
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTraffic/occupancy_6005.csv",
+   "path": "nab/data/realTraffic/occupancy_6005.csv",
+   "sha256": "cd357d7820d675074270fd976d4af1fc1e7854ecb764783028cbcb18d980c91d",
+   "bytes": 59122
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTraffic/occupancy_t4013.csv",
+   "path": "nab/data/realTraffic/occupancy_t4013.csv",
+   "sha256": "5663a8122a300360eb51fbbd0f21706da05af1af55262926d6a226bb6d071704",
+   "bytes": 62609
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTraffic/speed_6005.csv",
+   "path": "nab/data/realTraffic/speed_6005.csv",
+   "sha256": "7976e7596cd1e579696c737576e96a26fe041484472ed7d0a463ce2b094d7aa7",
+   "bytes": 57538
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTraffic/speed_7578.csv",
+   "path": "nab/data/realTraffic/speed_7578.csv",
+   "sha256": "15ba994384730cb5a2e6818f17ded1430b40d92eb7a08e5b1a48a445c8c350f6",
+   "bytes": 25928
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTraffic/speed_t4013.csv",
+   "path": "nab/data/realTraffic/speed_t4013.csv",
+   "sha256": "fa5532d6f7db36cadc73e657fd4dfef05cb1ec44d4010243b314d3f1bbd6a7b5",
+   "bytes": 57400
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_AAPL.csv",
+   "path": "nab/data/realTweets/Twitter_volume_AAPL.csv",
+   "sha256": "826f5cf404c2890784a7824f7102fd00cb134a4948e12e44ec320d095cbbc217",
+   "bytes": 368111
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_AMZN.csv",
+   "path": "nab/data/realTweets/Twitter_volume_AMZN.csv",
+   "sha256": "234f5e63f19a62720dfb7ccfd6ecc8349b94d93b33ef8aafbdb17edda0b654f3",
+   "bytes": 364666
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_CRM.csv",
+   "path": "nab/data/realTweets/Twitter_volume_CRM.csv",
+   "sha256": "e7133bf26479623d58fc7367107aea1cd7df6020420dece48b0eee4d26cdb28a",
+   "bytes": 350820
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_CVS.csv",
+   "path": "nab/data/realTweets/Twitter_volume_CVS.csv",
+   "sha256": "f0bdc89cba3dd2265b47069187c750eeae18ef48f76f86067ee26ea1af9c3114",
+   "bytes": 348802
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_FB.csv",
+   "path": "nab/data/realTweets/Twitter_volume_FB.csv",
+   "sha256": "a7096bd646759486bda6796b5600cd33a4590f0842bf274ea7acba001b3ba591",
+   "bytes": 359760
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_GOOG.csv",
+   "path": "nab/data/realTweets/Twitter_volume_GOOG.csv",
+   "sha256": "3a39cc23d1ff6a0f234b55298d0c46c21d2e94ddb81a0dad9e1e46e3aaa9ec90",
+   "bytes": 361270
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_IBM.csv",
+   "path": "nab/data/realTweets/Twitter_volume_IBM.csv",
+   "sha256": "4309bd56d28ddcbdc168e207da9717395fa2e9f74dba41fa768e0f7da8a116fa",
+   "bytes": 351268
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_KO.csv",
+   "path": "nab/data/realTweets/Twitter_volume_KO.csv",
+   "sha256": "f3aa8157043c6569911031535bd1f7a73b428b5a2d95238d79b9d5b88ceebbd2",
+   "bytes": 355283
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_PFE.csv",
+   "path": "nab/data/realTweets/Twitter_volume_PFE.csv",
+   "sha256": "18d2804d6a5dae63fe711baaba9242dce38a32bfade3dcdee1d8a7c1a866e41b",
+   "bytes": 348926
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/data/realTweets/Twitter_volume_UPS.csv",
+   "path": "nab/data/realTweets/Twitter_volume_UPS.csv",
+   "sha256": "be50f06bbb9d020f37653c8c5cf19af63f77aa0019d8cf10849d91f4af455af4",
+   "bytes": 350182
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/labels/combined_labels.json",
+   "path": "nab/labels/combined_labels.json",
+   "sha256": "98724014c162fcfd4be605683517f194051a54e98756c53667bd33ddbc644d9b",
+   "bytes": 7015
+  },
+  {
+   "base": "nab",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/labels/combined_windows.json",
+   "path": "nab/labels/combined_windows.json",
+   "sha256": "1e1fbc4601321aad8d0f8b3784c8134299379f68f6c1f7777565f8ffd57ab6b1",
+   "bytes": 15359
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-1-1.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-1-1.txt",
+   "sha256": "ea2b75dacb9cd140d81962203b18706e8e85d70c87dcced69746a37ba133fa48",
+   "bytes": 311
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-1-2.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-1-2.txt",
+   "sha256": "761b4b339a14d4781f34a3cd03fb3d983b01e3bece3f638fa21bb887128d3a11",
+   "bytes": 294
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-1-3.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-1-3.txt",
+   "sha256": "dbe9970c43e64445b89211f26eb13f0eccb4da869deaea298218d7c094672c8f",
+   "bytes": 352
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-1-4.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-1-4.txt",
+   "sha256": "25978fb0b28261b327a6a50e21ec0c7a232b6a2ad796b1a023b7bfc3d3c19c8a",
+   "bytes": 421
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-1-5.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-1-5.txt",
+   "sha256": "c3ab9437aeb07763bba39298dc99905a9365f27f441411d979a9bb66e26a53e9",
+   "bytes": 276
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-1-6.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-1-6.txt",
+   "sha256": "2cc68339b99fbf9ec0891c2a081c2d05ee04087a766d6200572fc74e99867f8f",
+   "bytes": 1127
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-1-7.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-1-7.txt",
+   "sha256": "3a272c538dce66358e9d8f7c18f62f14c652ffb1e52dfc18464cd092860a363b",
+   "bytes": 499
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-1-8.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-1-8.txt",
+   "sha256": "0908b5d09296f8379a70c055fdf7e5ebd5f19419e886eab7fca0c766512187ae",
+   "bytes": 494
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-2-1.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-2-1.txt",
+   "sha256": "fe4e3a67039d46045b9a3b18fd4dd6138f5c228447fcefb0c5f4beb1f46ede37",
+   "bytes": 389
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-2-2.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-2-2.txt",
+   "sha256": "a27f31facae7a9948ab6ba4ce039271df95763c53c1de7f7db699c317db7b233",
+   "bytes": 313
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-2-3.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-2-3.txt",
+   "sha256": "2ae064468235de25955439978c56d8fb217bf4682eab73636834e9d69086a777",
+   "bytes": 329
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-2-4.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-2-4.txt",
+   "sha256": "b559b694af8d02d23714ea74c526e85f951e1b57b0cb9d59dcd677da84947327",
+   "bytes": 460
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-2-5.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-2-5.txt",
+   "sha256": "7a83c2c8058f60c76c9b57cdeafb857594fc92c09f77fe704d2910f554b1cd87",
+   "bytes": 513
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-2-6.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-2-6.txt",
+   "sha256": "31f40cffdcc5ff99f00eb605fcfc30fe1fe80b4a59aef6567110cbd3d27e9074",
+   "bytes": 320
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-2-7.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-2-7.txt",
+   "sha256": "61b6ffc489cc22c3c08c514c59dde1bc6a0f3991cc964aff0626555e151241fe",
+   "bytes": 457
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-2-8.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-2-8.txt",
+   "sha256": "9d8a9f766645f5cca4c9dd48cbeea15db5defe872c0e6eb002e575a9c381c844",
+   "bytes": 106
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-2-9.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-2-9.txt",
+   "sha256": "253ca7dab14449f92c7ee08a270b0627808c5dc715ff39ded1cc492ef62fce52",
+   "bytes": 376
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-1.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-1.txt",
+   "sha256": "52f67a2be8538138b614850392a232b3f96c9eda987eba41aa2c31b534fd3e2f",
+   "bytes": 151
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-10.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-10.txt",
+   "sha256": "cd1f1df76a273f3df12bc5389850a0376a361256e0a9ebd6014e08e216661eb7",
+   "bytes": 416
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-11.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-11.txt",
+   "sha256": "ebfd4cd3802c4813de72003d5cee76905c9912d5c0f81403708881e187d27083",
+   "bytes": 159
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-2.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-2.txt",
+   "sha256": "3b76375af29ae9bd873f0746650d293cdb043235953c7b3ca19d893971a44c69",
+   "bytes": 188
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-3.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-3.txt",
+   "sha256": "25da8eda22a12fedc4a3009351d6bbbfa45ed5d5f7b7aaec458840bae2378239",
+   "bytes": 785
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-4.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-4.txt",
+   "sha256": "0a43f6c9ca99345a95ad7de615f275c72692c905e9e92061cdf28ce488a390fc",
+   "bytes": 166
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-5.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-5.txt",
+   "sha256": "baf251f03b57247b4f15f77e48f5238beb16a429c6211d599a825c69c23f6d96",
+   "bytes": 254
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-6.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-6.txt",
+   "sha256": "add62013ecd204670dedf2f0b4c4960ccbcbecf77088dd7712e4714c6311d7f6",
+   "bytes": 379
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-7.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-7.txt",
+   "sha256": "55534eeb66ba496b494c8bac83fe6102d45308bfd2411d152a633d003a20b0c2",
+   "bytes": 247
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-8.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-8.txt",
+   "sha256": "7dda43ca582298295fc84348fd577f7f8b0c6ab67be94bf1e8f9adcf1f26992b",
+   "bytes": 226
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/interpretation_label/machine-3-9.txt",
+   "path": "smd/ServerMachineDataset/interpretation_label/machine-3-9.txt",
+   "sha256": "8f1e4987c967faefb63ad7ebd9d6f01101507e3d908336e4e86bde33b1cb8acb",
+   "bytes": 166
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-1-1.txt",
+   "path": "smd/ServerMachineDataset/test/machine-1-1.txt",
+   "sha256": "bdb801d8d52ce6b0c4a20c310edf31b5cee9bc82eb84fb38e7d4a19309b16ddb",
+   "bytes": 9739818
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-1-2.txt",
+   "path": "smd/ServerMachineDataset/test/machine-1-2.txt",
+   "sha256": "f409991af7c049d3f286a8cf89dc2fa99114bea8753f6c3aea4bd24cb03eb015",
+   "bytes": 8103348
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-1-3.txt",
+   "path": "smd/ServerMachineDataset/test/machine-1-3.txt",
+   "sha256": "f3c134d45ffa7aed66587dba893111396c8c7ea3b6fa7f76895955b26b1a75ef",
+   "bytes": 8106426
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-1-4.txt",
+   "path": "smd/ServerMachineDataset/test/machine-1-4.txt",
+   "sha256": "98ade00e57eac63e8f81a506a8e848803b58590835ab2b3cf53d1f0459900bd3",
+   "bytes": 8107794
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-1-5.txt",
+   "path": "smd/ServerMachineDataset/test/machine-1-5.txt",
+   "sha256": "98b8979f21b4b68c7308f38dd093b9bff4275814578365103c692f28f60f61c5",
+   "bytes": 8107452
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-1-6.txt",
+   "path": "smd/ServerMachineDataset/test/machine-1-6.txt",
+   "sha256": "0797fe4bfd25ef13c830955cb9f2a36b4c9d5da265b8e91702408b6b048267f4",
+   "bytes": 8101638
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-1-7.txt",
+   "path": "smd/ServerMachineDataset/test/machine-1-7.txt",
+   "sha256": "785a3f542ef6ac171a3af55c534f9ca598d53fa0371010172c72e33af4588d16",
+   "bytes": 8104374
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-1-8.txt",
+   "path": "smd/ServerMachineDataset/test/machine-1-8.txt",
+   "sha256": "b8784c3b4169f8a0a2ed9f47b00070d72ed214dae0307553b8cfdb80c712d779",
+   "bytes": 8105058
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-2-1.txt",
+   "path": "smd/ServerMachineDataset/test/machine-2-1.txt",
+   "sha256": "2d103661799271be958227907950a1c76803356442d60a4070671cc0abbefb20",
+   "bytes": 8103348
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-2-2.txt",
+   "path": "smd/ServerMachineDataset/test/machine-2-2.txt",
+   "sha256": "1cb0dd0a4b8738b184c62bb07700e6800e029f7a76a715fe0ee147c603b2f2c8",
+   "bytes": 8105400
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-2-3.txt",
+   "path": "smd/ServerMachineDataset/test/machine-2-3.txt",
+   "sha256": "eaa24c78ff438eec2f847c09eb4de6ab8dbe8a0bb8d77b52ac4ecdee5bd21a7d",
+   "bytes": 8101638
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-2-4.txt",
+   "path": "smd/ServerMachineDataset/test/machine-2-4.txt",
+   "sha256": "85ba3101b9ab6a7684cd897b2d4c78e85caa6f5ef1c4f0e153479f4fca01cf38",
+   "bytes": 8101638
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-2-5.txt",
+   "path": "smd/ServerMachineDataset/test/machine-2-5.txt",
+   "sha256": "842588acfb9299735a785757fcadd98cc7f69b6a511d28e54e1af05c5e95137b",
+   "bytes": 8101638
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-2-6.txt",
+   "path": "smd/ServerMachineDataset/test/machine-2-6.txt",
+   "sha256": "c895144b7c7fb1ff960f506132d5aeefebce4325efad908d071fb7df5b3b1cf1",
+   "bytes": 9830106
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-2-7.txt",
+   "path": "smd/ServerMachineDataset/test/machine-2-7.txt",
+   "sha256": "58c3dfd109437ccbedab9d36608d32874c2ae5473484c5941f85349baf32cef8",
+   "bytes": 8104032
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-2-8.txt",
+   "path": "smd/ServerMachineDataset/test/machine-2-8.txt",
+   "sha256": "846207955c546f0c3ea57aa7032b8e3c207ad67632a0605c8273f182059d1a72",
+   "bytes": 8106426
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-2-9.txt",
+   "path": "smd/ServerMachineDataset/test/machine-2-9.txt",
+   "sha256": "8d93ccd1a6606de3f665cb2e905d206b60ad2b2a58f47e9561b9bb67a2cd4f28",
+   "bytes": 9822924
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-1.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-1.txt",
+   "sha256": "b110b204ba4919250351eba7aa253d73ab54af0cf18e272b9b284de5fa7df88d",
+   "bytes": 9815400
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-10.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-10.txt",
+   "sha256": "febaf197d4a8864f3a70a5e5c0926d6dab8f1b515cf0d90d31ee81a22d80392f",
+   "bytes": 8103006
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-11.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-11.txt",
+   "sha256": "c62f52e65d1b892ef8c556b38aa5c1d3504cf0cdd97a94e7df08985b922d7af0",
+   "bytes": 9814032
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-2.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-2.txt",
+   "sha256": "5f83ded5fbfb9b682030bdd7dd82eb53a77f9caa3773ddcc7e38db73c25db46e",
+   "bytes": 8106426
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-3.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-3.txt",
+   "sha256": "ecc3140ce24869a44ebac9b03ca372fb1a6eb7e5bde96946f1a350283d4b152a",
+   "bytes": 8106426
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-4.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-4.txt",
+   "sha256": "07e1b43e20b7d8300fcd4b4f45ea47ea8c851f3dbd7d1fe971139c32f039357e",
+   "bytes": 8100954
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-5.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-5.txt",
+   "sha256": "85dbb13b3076981ad917f42081b71a1440d8b2aafd9bee626f0d1cacff43fcd6",
+   "bytes": 8102322
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-6.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-6.txt",
+   "sha256": "04f746a4dde41adbfe5727c6ff77839d1b0b21d6d65bdb0253557e0391c5d44c",
+   "bytes": 9824292
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-7.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-7.txt",
+   "sha256": "a4588c1f39905d03bd24fce65052e7b175fba336d081843325ef780c9ed8cdad",
+   "bytes": 9817110
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-8.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-8.txt",
+   "sha256": "fa79d5dad3a703fbc13faf0eab26d9466b74789f2bb0d22776f2adaa4236f085",
+   "bytes": 9816768
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test/machine-3-9.txt",
+   "path": "smd/ServerMachineDataset/test/machine-3-9.txt",
+   "sha256": "5a8968c269a8a3562e54235aa05344b262f44829c2bae04cf9f5d364f388310d",
+   "bytes": 9819846
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-1-1.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-1-1.txt",
+   "sha256": "cddf33441ae480c6074e173c897d4715eb893f24a7078d3d3e1b79b200c7cd19",
+   "bytes": 56958
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-1-2.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-1-2.txt",
+   "sha256": "c2dbb3e4f89c9eb48f30fd1ddae48b80e7ae7ad7ca9abf2ffd71b6557ef2bb20",
+   "bytes": 47388
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-1-3.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-1-3.txt",
+   "sha256": "755d57179625682172ae85f9483749cff576ff3282d0af294271a40ab6ea7b28",
+   "bytes": 47406
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-1-4.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-1-4.txt",
+   "sha256": "a470a3f7b66ec3d080fc5ee3d9565e0f3bfcfa16a1650259f771736327fa9a8b",
+   "bytes": 47414
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-1-5.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-1-5.txt",
+   "sha256": "e7e2e611e12b5e9e2558ed955ad271f1f408fbdd7fbbfdfc72eb745ade567815",
+   "bytes": 47412
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-1-6.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-1-6.txt",
+   "sha256": "8359ffa67b5421b0b9967ccf396a58c7b3bf52fa24c3f95e6b9df6486f1d6365",
+   "bytes": 47378
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-1-7.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-1-7.txt",
+   "sha256": "24b3ce00bf2c56b571775a2b28d4e50ed27d050d77a031fa16c11ef3e51809b8",
+   "bytes": 47394
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-1-8.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-1-8.txt",
+   "sha256": "8019476032c4c5b4b80127cfb9e74ee7d57fbbd558aa15097518713e16463a47",
+   "bytes": 47398
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-2-1.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-2-1.txt",
+   "sha256": "416dd20a447f38b8d9394382293ed44f509c1c3f99c4aa2fbff179498626dbdc",
+   "bytes": 47388
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-2-2.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-2-2.txt",
+   "sha256": "b09e71b3aafe71d9ee73a4058b30efcf67dc80df98d3b7b7a8ec019ea3b769c4",
+   "bytes": 47400
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-2-3.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-2-3.txt",
+   "sha256": "5768ce5280cb5ce4bee6d8bb3c7105819574d5e82f7d517d61495efa9d4f566e",
+   "bytes": 47378
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-2-4.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-2-4.txt",
+   "sha256": "c26a6dabfd2ab4aec34c40919100e13e52e17ad0e6b702dd038f582b2c633b01",
+   "bytes": 47378
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-2-5.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-2-5.txt",
+   "sha256": "9966e4092bece4e0ef60ef54d85396c49c22da64334aad82a9fc2f3842d2ef15",
+   "bytes": 47378
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-2-6.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-2-6.txt",
+   "sha256": "6fe3dd209542dc6a20879618c40ef6f5d55ce60f2da2902c311d9f0fff3c1ee0",
+   "bytes": 57486
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-2-7.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-2-7.txt",
+   "sha256": "d9d7aceca750277dd28883f7b5b34da3653652ea9c96de78baa84daeebc4a9b7",
+   "bytes": 47392
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-2-8.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-2-8.txt",
+   "sha256": "22fbe94e06e56b6035fcc10383bac90d84ff4604f9063009a3940747f92d8105",
+   "bytes": 47406
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-2-9.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-2-9.txt",
+   "sha256": "eab9425847aa5c7c63485047a49b1bfc9cf44ed88a0d1be84e2fd0a16d0ba895",
+   "bytes": 57444
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-1.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-1.txt",
+   "sha256": "549348a9c63ed922e85157885bcb21289a8c9f5af94b50147a21cb7b928220ec",
+   "bytes": 57400
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-10.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-10.txt",
+   "sha256": "d2b87c9c1d1950f0b29eaca0edf4706b917984799f6d9b5c1472435832fe3abd",
+   "bytes": 47386
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-11.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-11.txt",
+   "sha256": "ce306777bd66e9ea81de726018e440d49afcc98415cb0db7d99367dddf398f1b",
+   "bytes": 57392
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-2.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-2.txt",
+   "sha256": "1bbf4223cc6083f718f1d6022e2a48d48af44b08cdfa80048aa51af34d5111c3",
+   "bytes": 47406
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-3.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-3.txt",
+   "sha256": "4e2c657f613759f11f167c5540d047723d41d8a3c76467fa4daafcc8a7112035",
+   "bytes": 47406
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-4.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-4.txt",
+   "sha256": "5c1f09b85c53d1936eff1e044c5f7413b07f10fd641934b4aba9b2669485b7be",
+   "bytes": 47374
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-5.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-5.txt",
+   "sha256": "8a17a0dff8cc0062124997d665a2055cc1c08daffffb9a63ccfd21f7d10bea8f",
+   "bytes": 47382
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-6.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-6.txt",
+   "sha256": "2bef9db1d998172c61008f593a7537377179ef4f24963001203c1e48345e9b61",
+   "bytes": 57452
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-7.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-7.txt",
+   "sha256": "80b3a19dfd0af2d800c2388474543bdcb723ba582b0f4a986d68f920b757c73c",
+   "bytes": 57410
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-8.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-8.txt",
+   "sha256": "dc834a5b5e9a194f5367423c29410afcb622e0e47d7d3362979dd280de713220",
+   "bytes": 57408
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/test_label/machine-3-9.txt",
+   "path": "smd/ServerMachineDataset/test_label/machine-3-9.txt",
+   "sha256": "bdaf308affb4653e3e5826177e7e27c883294d2fa8cf48364850ef5a4dac2282",
+   "bytes": 57426
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-1-1.txt",
+   "path": "smd/ServerMachineDataset/train/machine-1-1.txt",
+   "sha256": "ecebd2933ccdc1126e2abbfb538762dbde16410cebc77257a7b96e1e1fbcf753",
+   "bytes": 9739818
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-1-2.txt",
+   "path": "smd/ServerMachineDataset/train/machine-1-2.txt",
+   "sha256": "7f6f63ec34ce616c87b4c30d66fd52ad1b21149634ae3ff7bb1827a76d6ef79a",
+   "bytes": 8103348
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-1-3.txt",
+   "path": "smd/ServerMachineDataset/train/machine-1-3.txt",
+   "sha256": "a4ef16a49d921e0ba9497ce2690d3833eb4a85f9a8a88392de4c3fde42e413ac",
+   "bytes": 8106084
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-1-4.txt",
+   "path": "smd/ServerMachineDataset/train/machine-1-4.txt",
+   "sha256": "2ec56c43f91684aa4751a6b72d359669266712dd69bdc7efda3dc60c0ade1156",
+   "bytes": 8107452
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-1-5.txt",
+   "path": "smd/ServerMachineDataset/train/machine-1-5.txt",
+   "sha256": "69061055f43413863434cb9c0424c14b13a7a0817056a8fd9439e53dc365fc0b",
+   "bytes": 8107110
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-1-6.txt",
+   "path": "smd/ServerMachineDataset/train/machine-1-6.txt",
+   "sha256": "27e1765c04c2a5d08f39d98e7979e7764886fc733c36382fe081157a5ac0b9d8",
+   "bytes": 8101296
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-1-7.txt",
+   "path": "smd/ServerMachineDataset/train/machine-1-7.txt",
+   "sha256": "dddb9f770bdb8b1b952263e0cc4f000b6f8ec612941dd3eb7a303994f257edf8",
+   "bytes": 8104374
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-1-8.txt",
+   "path": "smd/ServerMachineDataset/train/machine-1-8.txt",
+   "sha256": "3b46e9754ec06bebd0bf3fe68dbe28b2a4b67298e795c9501d97f42083e337fc",
+   "bytes": 8104716
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-2-1.txt",
+   "path": "smd/ServerMachineDataset/train/machine-2-1.txt",
+   "sha256": "d6eb13ff74a537cf33686319fffdd4cdcb394862570a3acd519b4c37af97cd2e",
+   "bytes": 8103006
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-2-2.txt",
+   "path": "smd/ServerMachineDataset/train/machine-2-2.txt",
+   "sha256": "e2e0f52994c8c884f9552c6289e42268d9d988ba7c7abadcc0d8dcd8ba993c30",
+   "bytes": 8105058
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-2-3.txt",
+   "path": "smd/ServerMachineDataset/train/machine-2-3.txt",
+   "sha256": "d2b0fc37d08cb727438598a1b09ced94f71f7792a9b4d057242e2ce8f2580e13",
+   "bytes": 8101296
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-2-4.txt",
+   "path": "smd/ServerMachineDataset/train/machine-2-4.txt",
+   "sha256": "077a5c18649b9d260d8dcbd4cfbf10b16cb83719a52013410cf3b5dc6a802fa6",
+   "bytes": 8101638
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-2-5.txt",
+   "path": "smd/ServerMachineDataset/train/machine-2-5.txt",
+   "sha256": "940cdf20a8345fdeeb8043efd7ce9f7506fe0e7f5f89f8b50edf19b61b304136",
+   "bytes": 8101296
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-2-6.txt",
+   "path": "smd/ServerMachineDataset/train/machine-2-6.txt",
+   "sha256": "dc30adaef939060aebea3836c691e3d1bb47da593fa43553acbc52c6825dc8ae",
+   "bytes": 9830106
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-2-7.txt",
+   "path": "smd/ServerMachineDataset/train/machine-2-7.txt",
+   "sha256": "32e9d88b18bf1b377a2bd0a6d5de2a766f36c58781e76dbe2491b0347557dec2",
+   "bytes": 8104032
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-2-8.txt",
+   "path": "smd/ServerMachineDataset/train/machine-2-8.txt",
+   "sha256": "01ae9289566e3518cf738518a25edb0812f889e8ed1dada057f4693ac5dda23c",
+   "bytes": 8106084
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-2-9.txt",
+   "path": "smd/ServerMachineDataset/train/machine-2-9.txt",
+   "sha256": "465db893338b6f14985dd30ac2ff20a319246bb8584cd0a9a4aaacf52cbc2f1f",
+   "bytes": 9822924
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-1.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-1.txt",
+   "sha256": "c1186ac085809c0590467dd42f4f12180012ebd994c1e615250dbed2a3588111",
+   "bytes": 9815400
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-10.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-10.txt",
+   "sha256": "8f8258b3a85fe8aa5badb05e66b0cdd3405be5f180f0d418bc24c30503207fd2",
+   "bytes": 8102664
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-11.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-11.txt",
+   "sha256": "a2e531cf2bf9b8d833a0b6e7c42a596b1d3a64578a1c140537add46156bde4e9",
+   "bytes": 9813690
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-2.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-2.txt",
+   "sha256": "7cabed178422f7772425c6cabc3c20a1f7dedc3ab2a950f90a9edfcef3b5b3e3",
+   "bytes": 8106084
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-3.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-3.txt",
+   "sha256": "6bbad775c6ef6319abba08aaa6faa2befb2cd570f9db85b80413ae6fdf1047a4",
+   "bytes": 8106426
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-4.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-4.txt",
+   "sha256": "a27a88c5d96c3384e07776dd2ced9956f7ea78b1070b87786352bc6024129d72",
+   "bytes": 8100954
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-5.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-5.txt",
+   "sha256": "7eb4f157d5aace0f5758c8035a4cc90445fc0d3ae59c57b1bf00d7e62c363bba",
+   "bytes": 8101980
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-6.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-6.txt",
+   "sha256": "88b8164dccfe67704e83c0919aa40bf1d4b8d682aff0b947d4cdd1ec4f900b84",
+   "bytes": 9824292
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-7.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-7.txt",
+   "sha256": "5eb1f16e62c30eb498e968b2c6da3e8f60c8367e264f771245a970362d7d8574",
+   "bytes": 9817110
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-8.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-8.txt",
+   "sha256": "414ba622ae70118948a3940009ce4e90580b494ea07f9e03893c26e102edd855",
+   "bytes": 9816426
+  },
+  {
+   "base": "smd",
+   "origin": "https://raw.githubusercontent.com/NetManAIOps/OmniAnomaly/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset/train/machine-3-9.txt",
+   "path": "smd/ServerMachineDataset/train/machine-3-9.txt",
+   "sha256": "7896b57b65da1d48ee992ba128fb914ae7e6d2bef8ea4ed8df039657fc017468",
+   "bytes": 9819846
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/labeled_anomalies.csv",
+   "path": "smap_msl/data/SMAP_MSL/labeled_anomalies.csv",
+   "sha256": "057ce2d6c8875982bf4e5404aefea14efdcbce413d80826d2b737c95b59b7539",
+   "bytes": 3956
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/A-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/A-1.npy",
+   "sha256": "7509b72cd170003c3135e12d1f4c67b263dc5be58aabedf12ed14e7561fe6dc2",
+   "bytes": 1728128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/A-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/A-2.npy",
+   "sha256": "48776d8e71a7d1b24d51adce4e21fc9aca968fea7aa1e06b073c4f219991311a",
+   "bytes": 1582928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/A-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/A-3.npy",
+   "sha256": "a0d169d1cdb6b5e6af41782c64d2fedb8d585312069fedd052e3294b4f526c85",
+   "bytes": 1641128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/A-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/A-4.npy",
+   "sha256": "311760674bd5dafdd05cc91c39123330e1ad3dcfeeadb93385756d15b2d69592",
+   "bytes": 1616128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/A-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/A-5.npy",
+   "sha256": "45290a92c44a1f6e77a7531ed4fdbbb9b98c4516a2f851694429b67cf5d650a8",
+   "bytes": 938728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/A-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/A-6.npy",
+   "sha256": "cd72a62bc1758e487259988a4b93b31086a32ab48d0181a66f1af5cc1ce0e416",
+   "bytes": 890728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/A-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/A-7.npy",
+   "sha256": "ef8212b614006f1c771e630de1778f3037f78b9f860bbf9a9422b8e147790d8c",
+   "bytes": 1726328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/A-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/A-8.npy",
+   "sha256": "16f318c276d5cead94e89c37773068511a35f34ea0830e25fdd3eb7f57cd5a71",
+   "bytes": 1675128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/A-9.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/A-9.npy",
+   "sha256": "0672a0de39d40511f289d157d81b9e74f6ebbee1bccf9ce23c704dc1baf69566",
+   "bytes": 1686928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/B-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/B-1.npy",
+   "sha256": "4d6b0b3f0e31efd04fafbf6fea70710196095d9f5773ed714d6f4668b423146a",
+   "bytes": 1608928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/C-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/C-1.npy",
+   "sha256": "ea8bf028555a09a45b5fd5003958c8500da46b12178c963186293db14e3c8aab",
+   "bytes": 996288
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/C-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/C-2.npy",
+   "sha256": "dca3a5cc07ec3899c2b9c6bc28a889d9872a670d08677065d39da1326c14c2b4",
+   "bytes": 902568
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-1.npy",
+   "sha256": "49ec824e3f887a59c012599acfc080471702ed3c2d243cc73dd8f8e2e1205711",
+   "bytes": 1701928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-11.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-11.npy",
+   "sha256": "e5703acb3633dc8285ed755d9b74d2e2a08fc00ebb9e04aba34e37fcf47231ed",
+   "bytes": 1486328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-12.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-12.npy",
+   "sha256": "5b6eb79d58d5017ff04b8bd0275c8e14915e272352f528646c63d7cef1d6598f",
+   "bytes": 1583728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-13.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-13.npy",
+   "sha256": "242836dc5c0f6ebe3e1256c66430219e5369e2c525435f4da4f9b7ff10dc24a1",
+   "bytes": 1532728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-14.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-14.npy",
+   "sha256": "65400342172e5a01f36c389bd85b8bedce410965e155a10cc600c3c3834d8bc7",
+   "bytes": 1155128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-15.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-15.npy",
+   "sha256": "0c5691a3fc17b87d06eb23548931ffa589a5f4bed608b6db40ac976cd5695acd",
+   "bytes": 949648
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-16.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-16.npy",
+   "sha256": "85d98f5b6223a10d5ac1c881872cd7c6b93f288236632c282093a41dbba31490",
+   "bytes": 964168
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-2.npy",
+   "sha256": "06233a61aabed60cf25a8d983182ef4d5673ee7dd6dd5337df76c9014f8e8080",
+   "bytes": 1719128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-3.npy",
+   "sha256": "81c676e4741b4047c4c9e88521ed09c6c5c0323e6ab78a06328323776a5492c3",
+   "bytes": 1728128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-4.npy",
+   "sha256": "cfd4a2d02f94983d92ac300cc4d88ce64bb5e497b18468d04cc102572e7f8a09",
+   "bytes": 1694728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-5.npy",
+   "sha256": "3840a275b0ac6d50ccb499d7d225a081ab44098c67abed5a91e5ce3534cc2ceb",
+   "bytes": 1525728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-6.npy",
+   "sha256": "16b49e76d9e9ee125159b841cde0e7d29b1f8bfe1cd64474cd886e1a5d41593f",
+   "bytes": 1576928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-7.npy",
+   "sha256": "3ac8e58d26b2fcd4f276a60ea15d24ad3306a7ea829f719d61752d4e3feae36f",
+   "bytes": 1528528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-8.npy",
+   "sha256": "a7e8cd34563f2e0c846afb0a0a87e5b7151c16e44e36376db2fe774f145b183d",
+   "bytes": 1574928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/D-9.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/D-9.npy",
+   "sha256": "ccf6c64b3cc2dd4bfb408d7225b3540f4a68de4be7808c12e642697b61f9bfbd",
+   "bytes": 1481328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-1.npy",
+   "sha256": "b3426072dcf0b153bc34acefc827e2a8933d1c3d86ae20674504ad1ad7000f86",
+   "bytes": 1703328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-10.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-10.npy",
+   "sha256": "d1d28e86edff75219683e0d18c5342fdc240fc17a263bee47065c7e7b03f6d49",
+   "bytes": 1701128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-11.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-11.npy",
+   "sha256": "7e92f952316e2996e6dad1595eff26fc88be8a37c026f11b6d55e4df27af7a81",
+   "bytes": 1702928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-12.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-12.npy",
+   "sha256": "d00acd9fb12fb9e97315d266963e8dedb051a29f8fa0bf3f4cdcc5f27c7029d1",
+   "bytes": 1702528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-13.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-13.npy",
+   "sha256": "e869a18acde867b1aca34a346d6e7158fe391cb46722619ea1e3ed0f3ffa3e65",
+   "bytes": 1728128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-2.npy",
+   "sha256": "47f7e5bafc9bbc8f4f3f3547f2e77f794ab24bcaaa9662c7020fd18c2384129b",
+   "bytes": 1706528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-3.npy",
+   "sha256": "86865b2a9b95eb854d7a75755d27001dc8337d0f24d45fcf4202b7dcd796f13c",
+   "bytes": 1661528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-4.npy",
+   "sha256": "d0e6cc6c43e986b49a1eea5c7b37efc0f15bf73b96b816a11d84b5755e28f750",
+   "bytes": 1670928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-5.npy",
+   "sha256": "e1d0d97f898c474cccf04c7ff9cb57e319a215bf2ef51c61302ba944c69d3ceb",
+   "bytes": 1658928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-6.npy",
+   "sha256": "cc791f2bb1b9ef88af2702eacf2265c4b9991eb2c224c8faffcdbe8fac53baa2",
+   "bytes": 1660128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-7.npy",
+   "sha256": "229a2fa46dc670b911e35fd939f4380eae71fd112c8e7957f0a30c2113afe408",
+   "bytes": 1662128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-8.npy",
+   "sha256": "75c44c1016aa13059013cb85bfca05289de9f7b844b9c0a0090a181fa420f713",
+   "bytes": 1706528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/E-9.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/E-9.npy",
+   "sha256": "567a05e4c2bf3b80778f9f2ddb2e310a3b48e48c01eb653b43dda22575dfb759",
+   "bytes": 1660528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/F-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/F-1.npy",
+   "sha256": "359a895d7be89c775c7e743a6bba889944bc173faee8d996b9ea3b0cf7a35dad",
+   "bytes": 1716928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/F-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/F-2.npy",
+   "sha256": "fad0245c5da022c75d0e8aba2b2dc6d3a7533acb1ec2531696aa2158fd22cb26",
+   "bytes": 1725328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/F-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/F-3.npy",
+   "sha256": "89594ed83d720ebb56cd72485eed1fdd64f4f405ad00ea2659f33d828f6fe915",
+   "bytes": 1675328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/F-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/F-4.npy",
+   "sha256": "6b9610c11604ecc64ee537533d7392b4337a0d50ef4bf9ae84783e7262fa9612",
+   "bytes": 1505808
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/F-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/F-5.npy",
+   "sha256": "4ab308e3835547b8144acf8df136c9895ce759b30de0851fb23eca999877036e",
+   "bytes": 1725808
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/F-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/F-7.npy",
+   "sha256": "8474d57429c8541ad5efd4635c8751e3d90fb1feeba3a4b94958cada77f90665",
+   "bytes": 2223888
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/F-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/F-8.npy",
+   "sha256": "ebb950663e30ec91e52b6b422528bc4025563506af7fea6303eeabe5b2cd674e",
+   "bytes": 1094408
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/G-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/G-1.npy",
+   "sha256": "1de5cba1063374e9ab488020d53a380a9a412e24f91b11ffb4361260aa240613",
+   "bytes": 1693928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/G-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/G-2.npy",
+   "sha256": "e32d52571233429743f9e30fb68682ece87408f2393c9d36d96e9e8238578cab",
+   "bytes": 1472328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/G-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/G-3.npy",
+   "sha256": "b6d8bd083551ae1c720df050f4b96ecba080e885833499fd8f0d20c7b89a74fc",
+   "bytes": 1581528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/G-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/G-4.npy",
+   "sha256": "f4ca6997c44f3eb2f407a0fa45dd7c236d4540e36b3ff2cafdd1d73900fa29d0",
+   "bytes": 1526528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/G-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/G-6.npy",
+   "sha256": "634a6702fd8132143ec49767774910a75f50e8962cedcce4e1b98e15d0e39579",
+   "bytes": 1728128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/G-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/G-7.npy",
+   "sha256": "51c434210b75beedb37304dcce9e68c4bce0cac4e1d52b0f70a13b59ea7b31ef",
+   "bytes": 1605928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/M-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/M-1.npy",
+   "sha256": "58e16675dc0bada099130d02bd29279ea20c764bf3415bb5adefd626ef94dd56",
+   "bytes": 1002008
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/M-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/M-2.npy",
+   "sha256": "1bee2419bc4b5d9a7a71e830c1af5c98837ab31640da553f8f0d3eff9e86af49",
+   "bytes": 1002008
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/M-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/M-3.npy",
+   "sha256": "3c43c068fddbf661c6e7cbd933f8b10adcef9cd446818a160ef7c62994fb3d3a",
+   "bytes": 936008
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/M-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/M-4.npy",
+   "sha256": "bac52a304556631942d5e548a4ecc1cbf3aae3409aeb5c8eaaf3126b1ae83ac2",
+   "bytes": 896848
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/M-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/M-5.npy",
+   "sha256": "e4d8cf724bf78d94daae0dc66d5f1a3023545229e15ab9aa3877c267a41b57b5",
+   "bytes": 1013448
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/M-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/M-6.npy",
+   "sha256": "4138b2b33f919eb0791b0d2f5337f605bcfc533b07ed91015bfbbcda1c08a612",
+   "bytes": 901688
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/M-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/M-7.npy",
+   "sha256": "28f065fa569a5073eca60f99dd2d3dc93b449ed61e53e543d36e43392fd27bf1",
+   "bytes": 948768
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/P-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/P-1.npy",
+   "sha256": "5dbed44bbd0a643e5e3131578c233e73428c70cc678ea9727dde4f3a2da53ce1",
+   "bytes": 1701128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/P-10.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/P-10.npy",
+   "sha256": "2a34698f41fd1a16324f26d86a9443f3c633e7554f524e53d4773b40ca83a52a",
+   "bytes": 2684128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/P-11.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/P-11.npy",
+   "sha256": "dad84034fd7ad1b2dd4bcbdaefc345719c2fb1b1d3a7713257c612fc995ecc44",
+   "bytes": 1555528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/P-14.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/P-14.npy",
+   "sha256": "2a34698f41fd1a16324f26d86a9443f3c633e7554f524e53d4773b40ca83a52a",
+   "bytes": 2684128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/P-15.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/P-15.npy",
+   "sha256": "2284348ac1fc998b5aa76c5bbfbeff977f36b17f9602b6654dc65552b50954ae",
+   "bytes": 1256768
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/P-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/P-2.npy",
+   "sha256": "b57b1730a3fea656a8ba9a35e4fc537501744c84c4408a0dbea14efe9375d4c9",
+   "bytes": 1641928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/P-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/P-3.npy",
+   "sha256": "e3193c5386eeef89e74f20dfda2125952ef95b621338bceed747a17c7ad334c5",
+   "bytes": 1698728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/P-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/P-4.npy",
+   "sha256": "a52c4146fef3a001cf4a878eca3c0738ea228ff23f97880607c1650e1e73a44e",
+   "bytes": 1556728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/P-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/P-7.npy",
+   "sha256": "4b253756e2e4d0283a6c83064ed5730558e345b3e6f85d1dc4018a7c1b655786",
+   "bytes": 1614328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/R-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/R-1.npy",
+   "sha256": "6bce84dddd243d5b82a7d47c42a3237b550564c28c7dcf92b11c58de1ca0d010",
+   "bytes": 1448928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/S-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/S-1.npy",
+   "sha256": "76dbe1a9717b1fc4e6e7119883c4ccdf984764a1e8599b225a4241b67d043652",
+   "bytes": 1466328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/S-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/S-2.npy",
+   "sha256": "fb9651f2d378bfceef7d694cbe3cb7eafd36b8113241da247b98da53caefaeea",
+   "bytes": 804008
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-1.npy",
+   "sha256": "570153ed8c8368cde8122f87ee1078eaf33ccaa972baf3e7ea81cc3a1ee41004",
+   "bytes": 1722528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-10.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-10.npy",
+   "sha256": "a016d5a63af0e6da283431bebdc34d92c55e28710ca699c50ebb15dfd46d3217",
+   "bytes": 294928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-12.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-12.npy",
+   "sha256": "6848f4f7eec6c086862e0daf766617994935e265f2cd9bf229282609c13986bf",
+   "bytes": 1069328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-13.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-13.npy",
+   "sha256": "ebdf225ad1b21faf4c0c3013de07f1ab77cefd1329587421cfa424128b9433a6",
+   "bytes": 1069328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-2.npy",
+   "sha256": "6245ae92ccb55f3a9cffe6b28b05b1c8644b5ff6033f5f9017c89d485340c445",
+   "bytes": 1725128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-3.npy",
+   "sha256": "ee251c98320e7164f233b4a3f9f5e1a0f447ce6d4c70e6d402e9705ae3c06103",
+   "bytes": 1715928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-4.npy",
+   "sha256": "330499f248367f9bb3eae4eadc105fa9d44bfee3913a3d4b066f9dd3c43a4156",
+   "bytes": 975608
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-5.npy",
+   "sha256": "164cc73b9f82861959f61c54828c3ac70e6ffcc005b38c84a620c125106a6041",
+   "bytes": 976048
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-8.npy",
+   "sha256": "5778979c00621904c36f09bc432b462b87623b7ebc0255dcb4829895b2359b34",
+   "bytes": 668488
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/test/T-9.npy",
+   "path": "smap_msl/data/SMAP_MSL/test/T-9.npy",
+   "sha256": "4746b631cc292906c2cbc3ede7d472268f2c799bca41e13f2b0253bf016617b4",
+   "bytes": 482368
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/A-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/A-1.npy",
+   "sha256": "ae426533f9d4c6247a5cc1eab89438fed8bf768b0a41d60d42f3a65a7ebc80b0",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/A-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/A-2.npy",
+   "sha256": "c31945b5a6dd5507b9d74862faf9c47ba58aca31bed6636b0e83e935ffbd5d78",
+   "bytes": 529728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/A-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/A-3.npy",
+   "sha256": "eaabc3d4cc6fa14db1fb0b4f621d6b219889305df6a4cf30c20730a881c3b5f0",
+   "bytes": 547328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/A-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/A-4.npy",
+   "sha256": "c48f4ad7a5813794c1a476267a5e4782217c7ec5fef8f95ae255c3db128f4def",
+   "bytes": 538128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/A-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/A-5.npy",
+   "sha256": "86de2a5204c647da7db1921cdee0957c3cd2cc7778ab5424729210624847b178",
+   "bytes": 141128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/A-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/A-6.npy",
+   "sha256": "f47ac31688c05ca59b84648a4885de290c531e035974c313fb74d79f582cd0ba",
+   "bytes": 136528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/A-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/A-7.npy",
+   "sha256": "8ab669b686d13b61027edde2fa674de73952fc0d498b412a1195c70cf20af52e",
+   "bytes": 575928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/A-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/A-8.npy",
+   "sha256": "517840a64e14f8e47081518a7ae8301cd4331b323e690beef3a163298d15b2e2",
+   "bytes": 152528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/A-9.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/A-9.npy",
+   "sha256": "37e69be31c164c4c190eebeb26f14b1de14ff44beaee0637d1a4d612c1cafd6e",
+   "bytes": 152528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/B-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/B-1.npy",
+   "sha256": "96a10612e976d21bd8301086c35f422a97d55738ee85d7e16a37768d0d6104a1",
+   "bytes": 487128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/C-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/C-1.npy",
+   "sha256": "31fd0a2a44f5beac2c64e1484d5c96ea4adecdd1b52013775e215b01260975ee",
+   "bytes": 949648
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/C-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/C-2.npy",
+   "sha256": "5d05b47d790135de8d91ca2918d95892c3f52fbfa567fe5b637d51aaa8b91871",
+   "bytes": 336288
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-1.npy",
+   "sha256": "8ef3242bcbe3d3b1b1d4a635b3bf556a1d40281327b91aa5d52604bf3eaac9f6",
+   "bytes": 569928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-11.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-11.npy",
+   "sha256": "805fbf974233e01837fbff8f55e43d5ec2ae4278221b49fb65e66db4ee9f448a",
+   "bytes": 522328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-12.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-12.npy",
+   "sha256": "950f67a5fba71ce5f1dc1f6560f4c4cbfef88ff1702b6755a6d6677e9959f8c3",
+   "bytes": 62528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-13.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-13.npy",
+   "sha256": "c667ac320263fb30d462dbdbd909966d821b9a609a08f2ca2f7fb635f6f6d87b",
+   "bytes": 298128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-14.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-14.npy",
+   "sha256": "1021af01d1935e16507c7696275c16cda3056997780baa8d9d72997a157fd65d",
+   "bytes": 1617128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-15.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-15.npy",
+   "sha256": "18007d3503e9109d2c89e25e37ab4b8c652030d9e03dcde4f19b9a4d0496ab51",
+   "bytes": 912688
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-16.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-16.npy",
+   "sha256": "24f5d66a9158257c5b2595686f8888e50777427772b05a16f09470bdb7b5b577",
+   "bytes": 638568
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-2.npy",
+   "sha256": "5c794ba84fd1304faa79623a1f108549910a846cb17e77700d2f25a0112b8d96",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-3.npy",
+   "sha256": "7e6f12c26dfe7706734151e0b6f4e2a446f0aa9df800bc6b894477c7724a006c",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-4.npy",
+   "sha256": "c8e8fb80a31fe2fb0d181ba80a4f7590e4e17643dacc8f3adcac08c97d801daa",
+   "bytes": 566728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-5.npy",
+   "sha256": "47622486ea1a1931fabcce70fc83b930e55f64e0872bcd86524bcf3fcefc4631",
+   "bytes": 512328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-6.npy",
+   "sha256": "5219165cfc37c33cd4b7552de3bbe33c52996a42ed8b47e865645aba3e8250e4",
+   "bytes": 518928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-7.npy",
+   "sha256": "4e6ae078370b1307e988a45b87e0b93a1df21b1b07ea1327955b3f5d3bde637a",
+   "bytes": 516728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-8.npy",
+   "sha256": "57aa44aa6b07db647f074bbf56b2c67e5f7a6e4f4305787dd1b39ac2224ccd87",
+   "bytes": 520528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/D-9.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/D-9.npy",
+   "sha256": "8e88aa864b0de99b9b04d19d5c2db07d9f8aebd0595076f8be7f98b7487ec942",
+   "bytes": 516728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-1.npy",
+   "sha256": "adef4d2a83660467f41fdb1d586b63ced4ff59e5516f07e2efae824d9129a023",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-10.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-10.npy",
+   "sha256": "df543a47b41d33c52eefb7c320c3b03f0979d89ba2be29730601886d2b7cbf2d",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-11.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-11.npy",
+   "sha256": "34c59f1e07a46a971e0546014c248b03ecf7f6a38cdc81d34481165164aaa27c",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-12.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-12.npy",
+   "sha256": "8eaefcc79039f9c781bc66b2cc2933f97599d63dfdcad4fe4fb9b8170f28d27d",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-13.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-13.npy",
+   "sha256": "8544a2e2b737b6962d86daeb1046f7d864ec9221b7d3ec6d6bdcc2444c9deef7",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-2.npy",
+   "sha256": "8709cde1ac1d574fb0c85b2eb5c02c58dabed541aa3f90053adedd42c5ebaafb",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-3.npy",
+   "sha256": "611bed41517fcdc3ad6648f36d22026cf4877d3be542b498a96a42a9c34a08c6",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-4.npy",
+   "sha256": "d1046979a23e31d3da6563332c3e5eaa106d73d50729e3be04b7ef53ecbe139b",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-5.npy",
+   "sha256": "bc1b6ed3f1e939bb29899088ecc328cb7516487752a1c8668434de50932e8ee3",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-6.npy",
+   "sha256": "810daf92496572d7f2046e70a23109836e6b23bc0df1c9236dcc61015849376b",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-7.npy",
+   "sha256": "ae811efa8fce18d8bb99770929d3782e62cb0bd96bbbe37bb73f00e1c9104afc",
+   "bytes": 553928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-8.npy",
+   "sha256": "b84fe984f4aa107444094cd3e1b6f10401420cdda1cd1e7dcf3bce65498b322d",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/E-9.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/E-9.npy",
+   "sha256": "91b75853f36b902e8b933682f031dd0552c365e5b9f2048d867c987a0b3206d0",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/F-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/F-1.npy",
+   "sha256": "9a769de4be510d19f39570c36a7ebf348da354d8d3a5bd014c0a37a26dfad00d",
+   "bytes": 573928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/F-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/F-2.npy",
+   "sha256": "9a49936dd5450e6eca94e3f8652959d1d3cc106b877d315a2ec669c6fbc8b842",
+   "bytes": 572328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/F-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/F-3.npy",
+   "sha256": "be15ed5bb3773df3eacb98e29b98bfa32b5b6f455da6a32b693176c1d6faf021",
+   "bytes": 576128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/F-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/F-4.npy",
+   "sha256": "7dcf1bdd8a8b59a119b7b080a8b63a77a0a738723714402f20d9021bd4618bcb",
+   "bytes": 987488
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/F-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/F-5.npy",
+   "sha256": "3c79ee702010f82388b73bd537a84383d4dc22848b4c7aa4a2a3e0d6ac94102c",
+   "bytes": 1143248
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/F-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/F-7.npy",
+   "sha256": "f1c908cad80a8bf6cb7117d736d1a22927522572ca7987128bc4f8419c886411",
+   "bytes": 1104968
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/F-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/F-8.npy",
+   "sha256": "213ce7f2d28150b2df0e600b88f0574f9aaafafbe33449fae98470b99b0a9d8b",
+   "bytes": 1470608
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/G-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/G-1.npy",
+   "sha256": "41ddb9a1a0615cb86803e147a612fcd5e8502d3e114096b3fd689e8be32f8cdf",
+   "bytes": 564128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/G-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/G-2.npy",
+   "sha256": "8b44fdda45871023ee3b7a6eac9422f0727ccc2bd2c38bb42c89f62aaa018d42",
+   "bytes": 495728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/G-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/G-3.npy",
+   "sha256": "98c574aca9cbfece2ff9b9fc23d58fe499c3df8ae91f51cacdb98608a31df4bf",
+   "bytes": 524928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/G-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/G-4.npy",
+   "sha256": "416e2602798d4193b095f0f9432d446a4fcc655640994d98fc8c69fe23ffb57b",
+   "bytes": 510328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/G-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/G-6.npy",
+   "sha256": "9e645aaf5e8e14d747265e838cc62b0d1f5ed2be830b6732c1e3d3f7c717d288",
+   "bytes": 576328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/G-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/G-7.npy",
+   "sha256": "f11ec2989110630857b54a30750eca5a94a72e4e91c63671f16d61f04c85f455",
+   "bytes": 489328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/M-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/M-1.npy",
+   "sha256": "453bfb0edbbdfd3654098a652fad3a49f07fde9242993078dbe8f1bae1751612",
+   "bytes": 972088
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/M-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/M-2.npy",
+   "sha256": "61b50d819aaa87f57ba8a90163c3fabf815e8c6a1f242ab60d410d5edd8f42fa",
+   "bytes": 971648
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/M-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/M-3.npy",
+   "sha256": "c48a3f877d939f604cad977aa259595726cbf34f0193e423285545f512c2b3f3",
+   "bytes": 896408
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/M-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/M-4.npy",
+   "sha256": "a21e75cebb452724be26f5ca5f463c2b86588bcac25217c4cae27d563a81b0d1",
+   "bytes": 913568
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/M-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/M-5.npy",
+   "sha256": "a8512b5b0edc1515539539fe93eb731bf7e2528d9322b39782bf1781f5ca66a6",
+   "bytes": 894208
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/M-6.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/M-6.npy",
+   "sha256": "681fab71a4c910ceddc519b96e00adbc31e53f485284a62cfae8de2eb5358f26",
+   "bytes": 688728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/M-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/M-7.npy",
+   "sha256": "2d66222bfe39372470209a8d3e6f4aecd4e755fd18831cceb497c35e2a403405",
+   "bytes": 698408
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/P-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/P-1.npy",
+   "sha256": "78b6eec2b3cb1e6711d07ce994c7375de94b036d839c0f06fe258f446dff667a",
+   "bytes": 574528
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/P-10.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/P-10.npy",
+   "sha256": "b537ea82e001d9eaaa611ee41e79fdcc4d5a8387fd27392e65678cc4c808a692",
+   "bytes": 1895648
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/P-11.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/P-11.npy",
+   "sha256": "f21060190cc1a10a9aa4f58b37b2a1b9af660622c4e488194afb16d7b56d08b9",
+   "bytes": 1746488
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/P-14.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/P-14.npy",
+   "sha256": "183f77aa16a596485f05bf2f79b8f40fcd707d42a640eb37306a65f4c7672aa4",
+   "bytes": 1267328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/P-15.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/P-15.npy",
+   "sha256": "4a325d0b70aaa431f0c452472b5a30c3720b6881cd1c0bf4e7e73e821dc4c824",
+   "bytes": 1620208
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/P-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/P-2.npy",
+   "sha256": "b4adeb290a095a1985d29dd6add5cf66952844168331ee8c94643079e05fbe9d",
+   "bytes": 564328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/P-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/P-3.npy",
+   "sha256": "0046a883736324dcc63f91c942f7bc68a2c388168548ef9e9f57fc360a78ede1",
+   "bytes": 571128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/P-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/P-4.npy",
+   "sha256": "3633cc3488ccabd80319c12f4abdf4e9190455fdf92c57980e9e2ed5ff0004a6",
+   "bytes": 521928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/P-7.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/P-7.npy",
+   "sha256": "2aa7a74edcbde2d51383e401a726062ae1015ba51276c792ae26a6a2a0df1bda",
+   "bytes": 570728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/R-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/R-1.npy",
+   "sha256": "116213e95e68274c79c9e5d2d69c27e4f42c566a105494d425080a1e00bef580",
+   "bytes": 574928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/S-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/S-1.npy",
+   "sha256": "196c8413ba0319ea6366273b1d558c07d87c286425e1611768fcb95df37fb309",
+   "bytes": 563728
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/S-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/S-2.npy",
+   "sha256": "48844faca56f15e5a698f1c0eee114b544f3b87dcaa134b8f0327e025eeac131",
+   "bytes": 407568
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-1.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-1.npy",
+   "sha256": "cc96f9cb762742131748e009a58640887c6dac69032798e3f3a01447e10111b6",
+   "bytes": 575128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-10.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-10.npy",
+   "sha256": "fcf468de5f0741543be2059087af77f4c7a0519d08f2de3121e31e3c0b3d373c",
+   "bytes": 187128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-12.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-12.npy",
+   "sha256": "cd598282ee16a9f7cbed2ae6bfbfce489cabc2ea44ddd3391dc768d7276145d0",
+   "bytes": 503928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-13.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-13.npy",
+   "sha256": "9f3d78fa06ddf72f26fc190e11d38a253c1e2b59a4fc0bd06633b98a010a4f86",
+   "bytes": 503928
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-2.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-2.npy",
+   "sha256": "2cb8f5405401e35f152569b434b73ab820fb70ccc2241b92e9bcac3e23d7cf12",
+   "bytes": 571128
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-3.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-3.npy",
+   "sha256": "a1cf66e4d13dfcf22e3ae14be5b5561ea534cff6f7761880a63b11753de0c855",
+   "bytes": 575328
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-4.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-4.npy",
+   "sha256": "d137cceeedfd2c0759b9217ccb15cb29d7c8c0458d2d2515f84f54d5f0655c4c",
+   "bytes": 999808
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-5.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-5.npy",
+   "sha256": "dee9cf73d88fedd63896b51c627880a5693645ba641806bbcfbae294e3e30376",
+   "bytes": 999808
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-8.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-8.npy",
+   "sha256": "ce4c1d993e283f4b4d9c85922fa4e384e2aa65091a9dc74739e9c733e374c465",
+   "bytes": 329248
+  },
+  {
+   "base": "smap_msl",
+   "origin": "https://raw.githubusercontent.com/imperial-qore/TranAD/7ffb98d0c18189cc3d9ab732b4cb0278200a0af0/data/SMAP_MSL/train/T-9.npy",
+   "path": "smap_msl/data/SMAP_MSL/train/T-9.npy",
+   "sha256": "11052bf6842a5d8b097a30cdcba1d14ad5a2d3a4ffac4864853eef6cb7206738",
+   "bytes": 193288
+  },
+  {
+   "base": "label_check",
+   "origin": "https://raw.githubusercontent.com/khundman/telemanom/2e6c5b6c3558e7835601519b7bdef37c649bdbdc/labeled_anomalies.csv",
+   "path": "label_check/telemanom_labeled_anomalies.csv",
+   "sha256": "057ce2d6c8875982bf4e5404aefea14efdcbce413d80826d2b737c95b59b7539",
+   "note": "original labels of SMAP and MSL, from the telemanom repository; the same sha256 as the copy in the smap_msl download"
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/config/profiles.json",
+   "path": "nab_code/config/profiles.json",
+   "sha256": "fc018b9a29ae900ab22de167baf06c36f2be528a5a3a1406d6775e238aeb9565",
+   "bytes": 404
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/config/thresholds.json",
+   "path": "nab_code/config/thresholds.json",
+   "sha256": "b0bd47854e33fede1a774b2c30d8e41c27e3f6cf1fc1f35a95b92beead315e69",
+   "bytes": 5985
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/__init__.py",
+   "path": "nab_code/nab/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/corpus.py",
+   "path": "nab_code/nab/corpus.py",
+   "sha256": "4010f815c0022d562435978909f86b3bc61c6d5735c93d05b114d133aa5bccd2",
+   "bytes": 6932
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/labeler.py",
+   "path": "nab_code/nab/labeler.py",
+   "sha256": "618796f02cdb8946d188407df590ab08ac223bcb9ba7247e109654c0f274459c",
+   "bytes": 15512
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/optimizer.py",
+   "path": "nab_code/nab/optimizer.py",
+   "sha256": "42572d5e1cc6065255f133df57d09d4d5a7337f2c7fc08e342b4f81a9f5cad24",
+   "bytes": 3059
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/plot.py",
+   "path": "nab_code/nab/plot.py",
+   "sha256": "5e5e42f5f422acbd9938624dd67b7713241f58ea6499f3fa1aad9c28727a82ea",
+   "bytes": 16696
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/runner.py",
+   "path": "nab_code/nab/runner.py",
+   "sha256": "3d7f47578f7b6fa5ecbe013eff98e6cb8a85575d73c222372852c9f1298d0014",
+   "bytes": 9648
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/scorer.py",
+   "path": "nab_code/nab/scorer.py",
+   "sha256": "35bb1413e34c141ae414eca94ec0a0d4e3b1a9583c63449a3a38e39159f945a9",
+   "bytes": 5481
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/sweeper.py",
+   "path": "nab_code/nab/sweeper.py",
+   "sha256": "281b616a795d17ae517d048a48da2b75db247f7b691b6761f724bd12d8f85255",
+   "bytes": 11051
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/test_helpers.py",
+   "path": "nab_code/nab/test_helpers.py",
+   "sha256": "fa622b2930647a61a6bb7a31676b7d42dbe4286c380b9a7eaf6773642f20cd4e",
+   "bytes": 3028
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/util.py",
+   "path": "nab_code/nab/util.py",
+   "sha256": "5868a377a2ad5d6b4f62514937054bdb01434797b9cd4826a4d59bee5a45053d",
+   "bytes": 8360
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/run.py",
+   "path": "nab_code/run.py",
+   "sha256": "b0d973a1dd70e2798987aad9433854d5d52a569fbc2d5723f0fca4ec3520cb98",
+   "bytes": 6940
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/detectors/__init__.py",
+   "path": "nab_code/nab/detectors/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/detectors/base.py",
+   "path": "nab_code/nab/detectors/base.py",
+   "sha256": "f603ba4a9e8c8e8ed83968f8b1e9288791998abcd3792f47a0325f8f5ba7fc54",
+   "bytes": 4031
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/detectors/null/__init__.py",
+   "path": "nab_code/nab/detectors/null/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "base": "nab_code",
+   "origin": "https://raw.githubusercontent.com/numenta/NAB/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140/nab/detectors/null/null_detector.py",
+   "path": "nab_code/nab/detectors/null/null_detector.py",
+   "sha256": "951ea598760091887387aeff9c293f42862da5283cf326238401c34f57f6f52a",
+   "bytes": 599
+  }
+ ]
+}

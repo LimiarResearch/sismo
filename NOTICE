@@ -1,0 +1,19 @@
+Sismo: a public benchmark
+Copyright 2026 Limiar Research
+
+Licenses
+- detector/: GNU Affero General Public License, version 3 (LICENSE).
+- Everything else written for this benchmark (competitors/, runner/, metrics/, generators/, data/, protocol/publication/ and the
+  scripts at the root): Apache License, version 2.0 (LICENSE-APACHE), with two exceptions:
+  - competitors/htm_nab.py: a port of the "htmcore" detector of htm-community/NAB (nab/detectors/htmcore/htmcore_detector.py,
+    commit 98cdba6d9b698db102b1701ab8a885e88435467b); GNU Affero General Public License, version 3.
+  - competitors/watch_original/: copied from aaronhan223/watch (commit 3d17fca); BSD 3-Clause License
+    (competitors/watch_original/LICENSE).
+
+Not redistributed here; the reproduction command downloads them from pinned origins and checks the sha256 of every file
+(data/sources.json), each under its own license:
+- NAB data and scoring code: numenta/NAB, commit ea702d7.
+- SMD: NetManAIOps/OmniAnomaly, commit 7fb0e0a.
+- SMAP and MSL: the telemanom data through the imperial-qore/TranAD mirror, commit 7ffb98d; labels checked against
+  khundman/telemanom, commit 2e6c5b6.
+- htm.core: htm-community/htm.core, commit 96309f4, and its dependencies (data/build_htm.sh).

@@ -1,0 +1,25 @@
+# environment of the benchmark
+Python 3.11.17 (main, Oct  1 2026, 15:41:07) [GCC 13.3.0]
+## benchmark: Python 3.11.17 (main, Oct  1 2026, 15:41:07) [GCC 13.3.0]
+cloudpickle==3.1.2
+hexy==1.4.4
+htm==2.2.0 (built by data/build_htm.sh; sha256 of the wheel 11a633d5d02e25241059d3ea027ffee9e80a6723667208422f804602828d27e3)
+joblib==1.6.0
+llvmlite==0.50.0
+narwhals==2.27.1
+numba==0.68.0
+numpy==2.4.6
+prettytable==3.18.0
+river==0.26.1
+scikit-learn==1.9.1
+scipy==1.17.1
+stumpy==1.14.1
+threadpoolctl==3.7.0
+wcwidth==0.9.2
+## NAB score: Python 3.11.17 (main, Oct  1 2026, 15:41:07) [GCC 13.3.0]
+numpy==1.26.4
+pandas==1.5.3
+python-dateutil==2.9.0.post0
+pytz==2026.5
+simplejson==3.19.3
+six==1.17.0

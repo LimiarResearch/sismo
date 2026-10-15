@@ -1,0 +1,33 @@
+# python protocol/publication/compare_runs.py <approval outputs> outputs/publication
+series compared: 2047; identical: 2047; different: 0; missing in the new run: 0; missing in the original run: 0
+
+# python protocol/publication/compare_rows.py <approval rows> results/publication/rows.json --nab <approval nab> results/publication/nab.json
+  identical S1 relation breaks: alert
+  identical S2 input changes: log
+  identical S3 where: detection with the right field, among N
+  identical S4a what: right direction
+  identical S4b what: size within 0.25 sd
+  identical S4c what: became the new normal on the steps that stay
+  identical S5 slow drift: in the log and no alert
+  identical S6 declared limit L1: slow_real
+  identical S6 declared limit L2: cat_real
+  identical S6 declared limit L3: xor
+  identical S7 nulls: runs with a warning (ceiling: alert 2%, log 5%)
+  identical P1 NAB: event F1
+  identical P1c NAB (warmup500, information only): event F1
+  identical P4 SMD: event F1
+  identical P4L4 SMD: events shorter than 10 items (limit L4) (new keys: /n)
+  identical P4o SMD where: detection with the right fields, among 38
+  identical P5 SMAP: event F1
+  identical P6 MSL: event F1
+  identical M1 contingency: warning on the route's error field within 60 min
+  identical M2 incident: warning on the probe within 10 min and start attributed inside the window
+  identical M3 regime change: became the new normal within 15 days
+  identical M4 drift: the portfolio becomes the new normal in the normal lives and never without drift
+  identical M5 return: back to normal within 180 min after the outage
+  only in the new results: P1L4 NAB: events shorter than 10 items (limit L4)
+  only in the new results: P5L4 SMAP: events shorter than 10 items (limit L4)
+  only in the new results: P6L4 MSL: events shorter than 10 items (limit L4)
+  identical part_series: 29 scores, 36 series
+  identical all_58_default: 15 scores, 58 series
+rows: all identical

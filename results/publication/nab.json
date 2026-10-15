@@ -1,0 +1,56 @@
+{
+ "part_series": {
+  "series": 36,
+  "scores": {
+   "detector|default": 14.274893726286056,
+   "page_hinkley/field|delta=0.005,min_instances=30,threshold=50.0": 33.08641927205031,
+   "page_hinkley/field|delta=0.0005,min_instances=30,threshold=200.0": 19.61671863803534,
+   "cusum/field|h=5.0,k=0.5": -65.31428652167018,
+   "cusum/field|h=8.0,k=1.0": 15.842074642064539,
+   "ewma/field|L=3.0,lam=0.2": -27.797308205725358,
+   "ewma/field|L=4.0,lam=0.3": 17.40334617971283,
+   "adwin/field|delta=0.002": 30.939594617937715,
+   "adwin/field|delta=1e-06": 30.698749632093786,
+   "kswin/field|alpha=0.005,stat_size=30,window_size=100": 5.835239766201332,
+   "kswin/field|alpha=1e-05,stat_size=30,window_size=300": 24.39395522103635,
+   "ddm/field|drift_threshold=3.0,warm_start=30": 32.69280393532736,
+   "ddm/field|drift_threshold=3.0,warm_start=100": 33.35791292811316,
+   "hddm_a/field|drift_confidence=0.001": 22.43661146067919,
+   "hddm_a/field|drift_confidence=1e-05": 17.196382073106747,
+   "hddm_w/field|drift_confidence=0.001": 14.71816090992903,
+   "hddm_w/field|drift_confidence=0.01": 18.650883098750395,
+   "per_field_test|alpha=0.05,window=1000,window_step=250": 6.207696050265272,
+   "per_field_test|alpha=0.001,window=1000,window_step=50": 4.211725703574852,
+   "cjsd|q_tau=1.0,q_tau_x=1.0,tau=None,tau_x=0.0001334877264830281": 0.0,
+   "cjsd|q_tau=0.9,q_tau_x=0.9,tau=None,tau_x=-0.004383720895909596": 0.0,
+   "watch|sr=10000.0,ville=100.0": 25.32177627177996,
+   "watch|sr=1000000.0,ville=20.0": 23.7088987932281,
+   "isolation_forest|q=None": -118.70342987108762,
+   "isolation_forest|q=0.9999": 36.204682779259855,
+   "matrix_profile|k=None,m=100": -0.15277777777777699,
+   "matrix_profile|k=3.0,m=100": -0.07638880157632144,
+   "htm|threshold=0.5014187204194446": 43.76056465806763,
+   "htm|threshold=0.9999": 54.924042244466136
+  }
+ },
+ "all_58_default": {
+  "series": 58,
+  "scores": {
+   "detector|default": 16.273313724459776,
+   "page_hinkley/field|delta=0.005,min_instances=30,threshold=50.0": 16.93058409577434,
+   "cusum/field|h=5.0,k=0.5": -144.54372278665176,
+   "ewma/field|L=3.0,lam=0.2": -88.69958713928814,
+   "adwin/field|delta=0.002": 23.177304694617344,
+   "kswin/field|alpha=0.005,stat_size=30,window_size=100": -5.034162024204153,
+   "ddm/field|drift_threshold=3.0,warm_start=30": 34.99543961970453,
+   "hddm_a/field|drift_confidence=0.001": 26.394566845671154,
+   "hddm_w/field|drift_confidence=0.001": 22.54548497963743,
+   "per_field_test|alpha=0.05,window=1000,window_step=250": 7.730790235200819,
+   "cjsd|q_tau=1.0,q_tau_x=1.0,tau=None,tau_x=0.0001334877264830281": 0.0,
+   "watch|sr=10000.0,ville=100.0": 28.278122522429697,
+   "isolation_forest|q=None": -173.3391729201682,
+   "matrix_profile|k=None,m=100": -0.16369340542952598,
+   "htm|threshold=0.5014187204194446": 34.94288489189374
+  }
+ }
+}
