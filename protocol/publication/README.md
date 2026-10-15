@@ -71,4 +71,4 @@ python protocol/publication/compare_rows.py <original_rows.json> <new_rows.json>
    python -m metrics.nab_score outputs/publication/nab/official <nab_python> data/raw nab_work --json nab.json
    python protocol/publication/compare_rows.py approval_original/linhas.json rows.json --nab approval_original/nab.json nab.json
    ```
-6. The table from the new rows (`python -m runner.table rows.json nab.json`) is the one in README.md.
+6. The table from the new rows (`python -m runner.table rows.json nab.json`) is results/publication/table.txt.
