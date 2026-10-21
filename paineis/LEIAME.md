@@ -61,7 +61,7 @@ A pré-validação do detector foi feita sobre um repositório interno e não é
 
 O repositório e o cartão do Hugging Face deste pacote são a versão anterior às avaliações, inclusive "before any run" e "ran once" no README e no cartão. As mudanças de documentação entram de uma vez no fim desta revisão, sem alterar os arquivos congelados nem a rodada arquivada.
 
-Atualização de 21/10/2026: as mudanças de documentação entraram no README, na seção "Known limitations and caveats", com o número de cada item desta lista; a versão original do repositório ficou marcada com a etiqueta `v1-original`. Os arquivos congelados e a rodada arquivada não mudaram.
+Atualização de 21/10/2026: as mudanças de documentação entraram no README, na seção "Known limitations and caveats", com o número de cada item desta lista; a versão original do repositório é o commit `db2b946` (14/10/2026), no histórico. Os arquivos congelados e a rodada arquivada não mudaram.
 
 As correções de código ficam para a v2:
 - adaptadores do CJSD e do WATCH;

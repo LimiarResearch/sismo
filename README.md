@@ -165,7 +165,7 @@ What the table does not show
   exclusivity in the whole field, nor quality proven on every dimension.
 - **Intended use, not tested** [19]: "retrain if the relation broke, keep the model if only the input changed" and "next to an anomaly
   detector".
-- **Dates** [21]. A hash proves content, not date. The original version of this repository is tagged v1-original; the original
+- **Dates** [21]. A hash proves content, not date. The original version of this repository is commit db2b946 (14/10/2026) in its history; the original
   Portuguese approval code is not published file by file.
 - UCR and Yahoo S5 are not part of the benchmark; no deep-learning detector was run; HTM runs a later htm.core than its published
   threshold and score (protocol, section 10, v2, item 14).
