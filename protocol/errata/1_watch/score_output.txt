@@ -1,0 +1,27 @@
+series: 1000
+null watch|sr=1000.0,ville=20.0: alert 360/370, log 368/370
+null watch|sr=10000.0,ville=100.0: alert 23/370, log 370/370
+null watch|sr=1000000.0,ville=1000.0: alert 0/370, log 49/370
+null watch|sr=inf,ville=100.0: alert 1/370, log 11/370
+null ctm|sr=1000.0,ville=100.0: alert 362/370, log 369/370
+null ctm|sr=10000.0,ville=100.0: alert 24/370, log 370/370
+null ctm|sr=1000000.0,ville=1000.0: alert 0/370, log 19/370
+null ctm|sr=inf,ville=100.0: alert 1/370, log 4/370
+S1 relation breaks: alert: detector 0.996; best allowed cjsd|q_tau=0.9,q_tau_x=1.0,tau=0.015012273678999061,tau_x=-0.0018571807304241794 0.7007874015748031; se 0.026954428751885768; WON; PASSED
+    ctm|sr=1000.0,ville=100.0: 0.331
+    ctm|sr=10000.0,ville=100.0: 0.205
+    ctm|sr=1000000.0,ville=1000.0: 0.000
+    ctm|sr=inf,ville=100.0: 0.000
+    watch|sr=1000.0,ville=20.0: 0.340
+    watch|sr=10000.0,ville=100.0: 0.249
+    watch|sr=1000000.0,ville=1000.0: 0.000
+    watch|sr=inf,ville=100.0: 0.000
+S2 input changes: log: detector 0.929; best allowed cjsd|q_tau=1.0,q_tau_x=1.0,tau=0.015475023824050216,tau_x=-0.0018571807304241794 0.8786610878661087; se 0.009465279171293755; WON; PASSED
+    ctm|sr=1000.0,ville=100.0: 0.319
+    ctm|sr=10000.0,ville=100.0: 0.399
+    ctm|sr=1000000.0,ville=1000.0: 0.576
+    ctm|sr=inf,ville=100.0: 0.532
+    watch|sr=1000.0,ville=20.0: 0.324
+    watch|sr=10000.0,ville=100.0: 0.417
+    watch|sr=1000000.0,ville=1000.0: 0.571
+    watch|sr=inf,ville=100.0: 0.535

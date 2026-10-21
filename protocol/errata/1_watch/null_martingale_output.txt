@@ -1,0 +1,6 @@
+original mixture: 40 sequences of 18000 uniform p-values; martingale >= 100 in 0
+  Shiryaev-Roberts >= 1000: 40/40, median first item 826.0
+  Shiryaev-Roberts >= 10000: 40/40, median first item 3760.5
+each rate with its own wealth: 200 sequences of 18000 uniform p-values; martingale >= 100 in 0
+  Shiryaev-Roberts >= 1000: 200/200, median first item 1161.5
+  Shiryaev-Roberts >= 10000: 200/200, median first item 11151.0

@@ -114,7 +114,7 @@ How the table was built
   measure. The weighted WATCH adapter fits its scale on the whole series and uses later items at the start of the target
   (_watch_segment), so it is not strictly causal after the first input alarm. No verdict depends on either: WATCH and CTM go over the
   null ceilings of the synthetic rows with both configurations (with the Shiryaev-Roberts threshold of the WATCH paper, 10^4, on
-  series of 18,000 scored items); where CJSD is the best allowed competitor without a response (P4 and P4L4), P4 fails on the
+  series of 18,000 scored items; ERRATA.md, entry 1, checks the copied code and runs them with the martingale threshold alone); where CJSD is the best allowed competitor without a response (P4 and P4L4), P4 fails on the
   detector's own null and P4L4 is a limit row, outside the verdict. Both fixes are for version 2.
 - **Error axis** [30]. The competitors on the error axis watch the 0/1 error of an online model; the detector uses its own
   discretized reference. Their inputs are not identical.
@@ -188,6 +188,12 @@ What the table does not show
   Martingales", ICML 2025, PMLR 267), whose code runs here unchanged.
 - **Other methods in the table.** Isolation forest (Liu, Ting and Zhou, ICDM 2008), the matrix profile (Yeh et al., ICDM 2016) and HTM
   (Ahmad et al., "Unsupervised real-time anomaly detection for streaming data", Neurocomputing, 2017).
+
+## Errata
+
+Errors and findings reported after publication are in ERRATA.md, each with its date, what was checked, what was found and whether any
+row of the table changes. The frozen results are never edited in place: a correction that changes a number is a new run under a new
+version of the protocol. To report an error, open an issue in this repository.
 
 ## How to reproduce
 
