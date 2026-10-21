@@ -1,0 +1,2 @@
+um idioma: 1062 mutações, 0 sobreviventes
+pares: 530 mutações, 0 sobreviventes

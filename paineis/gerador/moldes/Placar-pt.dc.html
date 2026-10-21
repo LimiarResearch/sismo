@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Sismo: placar</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&amp;family=Poiret+One&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#dce6ff}a:hover{color:#f1ede4}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 64px 72px 56px; background: #06070b; color: #f1ede4; font-family: Newsreader, Georgia, serif; display: flex; flex-direction: column">
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 44px">
+    <img src="/_blob/866a541afeb37bd7d1dc79b2ff7009cd" alt="Limiar Research" style="height: 44px; width: auto">
+    <span style="font-style: italic; font-size: 18px; color: #9c988e">bancada pública · rodada de aprovação</span>
+  </div>
+  <h1 style="margin: 40px 0 0; font-family: 'Poiret One', Futura, sans-serif; font-weight: 400; font-size: 58px; line-height: 1.06; letter-spacing: 0.01em">Onde passa, e onde não passa</h1>
+  <p style="margin: 14px 0 0; font-style: italic; font-weight: 300; font-size: 23px; line-height: 1.35; color: #9c988e">Toda linha da bancada é publicada, inclusive as reprovadas.</p>
+  <div style="margin-top: 34px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 48px; flex-grow: 1">
+    <div style="display: flex; flex-direction: column; gap: 0">
+      <div style="display: flex; align-items: center; gap: 10px; padding-bottom: 12px; border-bottom: 1px solid #23262f">
+        <span style="width: 8px; height: 8px; border-radius: 50%; background: #c8a24b"></span>
+        <span style="font-style: italic; font-size: 20px; color: #c8a24b">passa</span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">alerta quando a regra entre entrada e resultado quebra</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦s1⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">F1 por evento · melhor concorrente ⟦s1_best⟧</span></span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">registra em log quando só a entrada muda</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦s2⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">F1 por evento · melhor concorrente ⟦s2_best⟧</span></span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">diz qual campo mudou, entre até ⟦campos_max⟧</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦s3_k⟧ de ⟦s3_n⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">todo campo que ele cita mudou</span></span>
+        <span style="font-size: 15px; color: #9c988e">entradas ⟦ent_k⟧ de ⟦ent_n⟧ (ADWIN ⟦ent_adwin⟧) · quebras de relação ⟦rel_k⟧ de ⟦rel_n⟧, onde os métodos por campo não pontuam</span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">diz para que lado e quanto (a menos de ⟦tol_dp⟧ dp)</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦s4a_k⟧ de ⟦s4a_n⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">direção · tamanho ⟦s4b_k⟧ de ⟦s4b_n⟧</span></span>
+        <span style="font-size: 15px; color: #9c988e">a resposta certa é fixa nas ⟦s4a_n⟧ · tamanho lido ⟦itens_tamanho⟧ itens após o aviso</span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">diz quando a mudança virou o normal novo</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦s4c_k⟧ de ⟦s4c_n⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">⟦s4c_nulo_k⟧ em séries sem mudança</span></span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">guarda a deriva lenta no log, sem alertar</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦s5_k⟧ de ⟦s5_n⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">empata com ⟦s5_emp⟧ métodos</span></span>
+        <span style="font-size: 15px; color: #9c988e">vários nunca alertam, então “sem alerta” não lhes custa nada</span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">fica quieto em séries sem mudança</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦s7_alerta⟧ de ⟦s7_n⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">rodadas com alerta · ⟦s7_log⟧ com log</span></span>
+        <span style="font-size: 15px; color: #9c988e">⟦s7_nul⟧ séries nulas e ⟦s7_emb⟧ cópias embaralhadas; nenhuma estacionária autocorrelacionada</span>
+      </div>
+      <div style="padding: 11px 0; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">empresa simulada: incidentes, mudanças de regime</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦m2_k⟧ de ⟦m2_n⟧ · ⟦m3_k⟧ de ⟦m3_n⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">nulo ⟦m3_nulo_k⟧ de ⟦m3_nulo_n⟧</span></span>
+        <span style="font-size: 15px; color: #9c988e">incidentes: empate com DDM e HDDM, no máximo ⟦m2_indep⟧ independentes · os ⟦m3_k⟧ vêm de ⟦m3_reg⟧ registros distintos</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 0">
+      <div style="display: flex; align-items: center; gap: 10px; padding-bottom: 12px; border-bottom: 1px solid #23262f">
+        <span style="width: 8px; height: 8px; border-radius: 50%; background: #d8552b"></span>
+        <span style="font-style: italic; font-size: 20px; color: #f1ede4">não passa</span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">base de anomalia rotulada (NAB)</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦p1⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">F1 por evento · melhor concorrente ⟦p1_best⟧</span></span>
+        <span style="font-size: 15px; color: #9c988e">talvez mudanças de regime sem rótulo (hipótese ainda não verificada)</span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">SMD, SMAP, MSL: avisos no trecho de treino</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦tr_min⟧ a ⟦tr_max⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">por ⟦mil⟧ itens</span></span>
+        <span style="font-size: 15px; color: #9c988e">com as cópias embaralhadas (⟦emb_zero⟧ nelas): ⟦cb_min⟧ a ⟦cb_max⟧, teto ⟦teto_pub⟧</span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">empresa simulada: contingência na rota certa</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦m1_k⟧ de ⟦m1_n⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">melhor concorrente ⟦m1_best⟧ de ⟦m1_n⟧</span></span>
+      </div>
+      <div style="padding: 11px 0; border-bottom: 1px solid #23262f; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">empresa simulada: deriva da carteira</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦m4_k⟧ de ⟦m4_n⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">vidas normais</span></span>
+        <span style="font-size: 15px; color: #9c988e">⟦m4_zeros⟧ vida normal deu ⟦m4_min⟧, e a vida sem deriva também disparou ⟦m4_vezes⟧ (devia ser ⟦m4_esperado⟧)</span>
+      </div>
+      <div style="padding: 11px 0; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">confirma a volta ao normal</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦m5_h0⟧ a ⟦m5_h1⟧ h <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">depois da volta, ⟦m5_k⟧ de ⟦m5_n⟧ · a linha pede ⟦m5_h⟧ h</span></span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px; padding: 26px 0 12px; border-bottom: 1px solid #23262f">
+        <span style="width: 8px; height: 8px; border-radius: 50%; border: 1px solid #9c988e; box-sizing: border-box"></span>
+        <span style="font-style: italic; font-size: 20px; color: #9c988e">limites declarados (não decidem)</span>
+      </div>
+      <div style="padding: 11px 0; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-style: italic; font-size: 17px; color: #9c988e">XOR: limite confirmado</span>
+        <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 36px; line-height: 1.1">⟦l3⟧ <span style="font-family: Newsreader, Georgia, serif; font-size: 16px; color: #9c988e">F1 por evento · melhor concorrente ⟦l3_best⟧</span></span>
+        <span style="font-size: 15px; color: #9c988e">não confirmados: deriva lenta real, mudança categórica, eventos do SMD com menos de ⟦curto⟧ itens</span>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 20px; padding-top: 18px; border-top: 1px solid #23262f; display: flex; flex-direction: column; gap: 6px">
+    <p style="margin: 0; font-size: 22px; line-height: 1.35">Veredito do protocolo: <span style="font-style: italic">não aprovado</span>. ⟦passam⟧ das ⟦decidem⟧ linhas que decidem passaram (⟦vit⟧ vitórias, ⟦cap⟧ por capacidade, ⟦emp⟧ empates, ⟦nul⟧ contra um nulo ou um teto); cada linha é comparada com o melhor concorrente a dois erros-padrão.</p>
+    <p style="margin: 0; font-style: italic; font-size: 15px; color: #9c988e">Protocolo de aprovação congelado antes da rodada de aprovação (sha256 ⟦hash⟧, que prova o conteúdo, não a data) · ⟦series⟧ séries, rodadas de novo com o código de publicação: idênticas · ⟦concorrentes⟧ concorrentes, o mesmo aquecimento · um comando reproduz as linhas; estas telas derivam delas · github.com/LimiarResearch/sismo</p>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

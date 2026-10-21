@@ -1,0 +1,9 @@
+01_Capabilities-en.png: 0 pixels diferentes
+02_Purpose-en.png: 0 pixels diferentes
+03_Scorecard-en.png: 0 pixels diferentes
+04_Results-en.png: 0 pixels diferentes
+05_Recursos-pt.png: 0 pixels diferentes
+06_Proposito-pt.png: 0 pixels diferentes
+07_Placar-pt.png: 0 pixels diferentes
+08_Resultados-pt.png: 0 pixels diferentes
+problemas: 0

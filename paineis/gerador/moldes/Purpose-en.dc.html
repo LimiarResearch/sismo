@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sismo: purpose</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&amp;family=Poiret+One&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#dce6ff}a:hover{color:#f1ede4}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 64px 72px 56px; background: #06070b; color: #f1ede4; font-family: Newsreader, Georgia, serif; display: flex; flex-direction: column">
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 44px">
+    <img src="/_blob/866a541afeb37bd7d1dc79b2ff7009cd" alt="Limiar Research" style="height: 44px; width: auto">
+    <span style="font-style: italic; font-size: 18px; color: #9c988e">public benchmark · approval run</span>
+  </div>
+  <h1 style="margin: 40px 0 0; font-family: 'Poiret One', Futura, sans-serif; font-weight: 400; font-size: 58px; line-height: 1.06; letter-spacing: 0.01em">Why it does not pass the classic benchmarks</h1>
+  <p style="margin: 14px 0 0; font-style: italic; font-weight: 300; font-size: 23px; line-height: 1.35; color: #9c988e">They ask a different question from the one it was built to answer.</p>
+
+  <div style="margin-top: 34px; display: grid; grid-template-columns: 210px repeat(2, minmax(0, 1fr)); column-gap: 28px">
+    <span></span>
+    <span style="padding-bottom: 12px; border-bottom: 1px solid #23262f; font-style: italic; font-size: 18px; color: #9c988e">anomaly benchmarks (NAB, SMD, SMAP, MSL)</span>
+    <span style="padding-bottom: 12px; border-bottom: 1px solid #dce6ff; font-style: italic; font-size: 18px; color: #dce6ff">Sismo</span>
+
+    <span style="padding: 16px 0; border-bottom: 1px solid #23262f; font-style: italic; font-size: 17px; color: #9c988e">the question</span>
+    <span style="padding: 16px 0; border-bottom: 1px solid #23262f; font-size: 21px; line-height: 1.35">Is this moment an anomaly?</span>
+    <span style="padding: 16px 0; border-bottom: 1px solid #23262f; font-size: 21px; line-height: 1.35">What changed, in which field, since when, by how much, and does the rule from inputs to outcome still hold?</span>
+
+    <span style="padding: 16px 0; border-bottom: 1px solid #23262f; font-style: italic; font-size: 17px; color: #9c988e">a lasting change nobody labeled</span>
+    <span style="padding: 16px 0; border-bottom: 1px solid #23262f; font-size: 21px; line-height: 1.35">counts as a false alarm</span>
+    <span style="padding: 16px 0; border-bottom: 1px solid #23262f; font-size: 21px; line-height: 1.35">goes to the log, with its trajectory</span>
+
+    <span style="padding: 16px 0; border-bottom: 1px solid #23262f; font-style: italic; font-size: 17px; color: #9c988e">what you do next</span>
+    <span style="padding: 16px 0; border-bottom: 1px solid #23262f; font-size: 21px; line-height: 1.35">investigate the incident</span>
+    <span style="padding: 16px 0; border-bottom: 1px solid #23262f; font-size: 21px; line-height: 1.35">given the real outcomes: retrain if the rule broke, keep the model if only the inputs moved (intended use, not tested here)</span>
+  </div>
+
+  <div style="margin-top: 30px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 48px">
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 60px; line-height: 1">⟦p1_k⟧ of ⟦p1_n⟧</span>
+      <span style="font-size: 17px; line-height: 1.4; color: #9c988e">labeled NAB events it finds, of those after its warm-up; its other warnings, ⟦p1_fp⟧ per ⟦mil⟧ items, fall outside the labels</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <span style="font-family: 'Poiret One', Futura, sans-serif; font-size: 60px; line-height: 1; color: #dce6ff; text-shadow: 0 0 24px rgba(220, 230, 255, 0.35)">⟦emb_zero⟧</span>
+      <span style="font-size: 17px; line-height: 1.4; color: #9c988e">warnings on shuffled copies of the same series: what it reports depends on the order of the data, which carries both changes and autocorrelation</span>
+    </div>
+  </div>
+  <p style="margin: 18px 0 0; font-size: 16px; line-height: 1.45; color: #9c988e">In SMD, SMAP and MSL the null includes the training stretch, which those datasets do not guarantee to be free of change; if it is logging real changes there, the rule counts them against it. That is a hypothesis we have not yet checked; another explanation is the autocorrelation of these series, since on stationary autocorrelated series with no change it also logs.</p>
+
+  <div style="margin-top: 30px; padding-top: 22px; border-top: 1px solid #23262f; display: flex; flex-direction: column; gap: 10px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <span style="width: 8px; height: 8px; border-radius: 50%; background: #dce6ff; box-shadow: 0 0 18px rgba(220, 230, 255, 0.45)"></span>
+      <span style="font-style: italic; font-size: 20px; color: #dce6ff">what it is for</span>
+    </div>
+    <p style="margin: 0; font-size: 22px; line-height: 1.45">It is meant to work next to an anomaly detector, a pairing this benchmark does not test. The anomaly detector says something is wrong now. Sismo says what changed, where, since when and by how much; it separates an alert from a log; and it keeps slow drift instead of throwing it away.</p>
+  </div>
+
+  <div style="margin-top: 26px; display: flex; flex-direction: column; gap: 8px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <span style="width: 8px; height: 8px; border-radius: 50%; background: #d8552b"></span>
+      <span style="font-style: italic; font-size: 18px; color: #f1ede4">where it fell short on its own ground</span>
+    </div>
+    <p style="margin: 0; font-size: 17px; line-height: 1.45; color: #9c988e">It confirms a return to normal ⟦m5_h0⟧ to ⟦m5_h1⟧ hours after the recovery, and it found ⟦m1_k⟧ of ⟦m1_n⟧ contingencies in the simulated company. Both stay in the table.</p>
+  </div>
+
+  <p style="margin: auto 0 0; font-style: italic; font-size: 15px; color: #9c988e">Approval protocol frozen before the approval run (sha256 ⟦hash⟧, which proves content, not date) · ⟦series⟧ series, rerun with the publication code: identical · ⟦concorrentes⟧ competitors, same warm-up · one command reproduces the rows; these boards derive from them.</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

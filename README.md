@@ -1,8 +1,15 @@
 # Sismo: a public benchmark
 
 A reproducible benchmark that measures what Sismo (in the code and below, "the detector") does and compares it, on the same series and
-under the same rules, with 15 known methods. The protocol was written and frozen (sha256) before any run; the approval seeds were drawn
-from the hash of the frozen files; the approval ran once. Every row is in the table, passed or not.
+under the same rules, with 15 known methods. A development run came first (protocol v1); the approval protocol (v2) was written and
+frozen (sha256) after it and before the approval run; the approval seeds were drawn from the hash of the frozen approval files. The
+approval run stopped twice and was resumed, and it was later run again in full with the publication code, with identical results (see
+"Publication version and proof"). Every row is in the table, passed or not.
+
+Seven independent reviews examined this material after the approval run. Their reports, the list of every point they raised and the
+status of each (paineis/RESSALVAS.md), and the summary screens are in paineis/ (in Portuguese); the points that concern how to read
+the table are in "Known limitations and caveats" below. Nothing frozen was changed because of them: the fixes that need a new run are
+left for a version 2 of the protocol.
 
 ## What the detector claims
 
@@ -14,6 +21,12 @@ For a set of fields observed over time, it answers:
 
 When a model's response is available, it separates an **alert** (the relation between fields and response broke: retrain) from a
 **log** entry (the input changed: the model still holds). It **keeps slow drift** in the log, instead of discarding it or alerting.
+
+## Which detector this measures
+
+The table holds for the detector code in detector/, as published in this repository and frozen by its sha256 in
+protocol/frozen_publication.sha256, run with its single configuration. Any other version of the detector, or this code with other
+options, is not covered by this table: it has to be run again under the same protocol before any number here is used for it.
 
 ## Declared limits (measured in the table, outside the verdict)
 
@@ -81,6 +94,100 @@ categories, Bonferroni), cjsd, watch and ctm (WATCH and CTM, its unweighted vari
 where there is a response), isolation_forest, matrix_profile and htm (HTM, the htmcore detector of the NAB community). The suffix
 /field means the method watches each field (a warning names the field); /error means it watches the error of an online model of the
 response. The text after "|" is the configuration; "detector|default" is the detector with its single configuration.
+
+## Known limitations and caveats
+
+These are limits of the benchmark and of how its rows can be read, not the declared limits of the detector (above). None of them
+changes a row of the table. The number in brackets is the item in paineis/RESSALVAS.md, where each one has its origin and status.
+
+How the table was built
+- **Who wrote the series.** The synthetic streams (S rows) and the simulated company (M rows) were written by the same people who
+  wrote the detector, around the claims it makes. They test whether the detector does what it claims; on the public bases (P rows),
+  which nobody here wrote, the detector fails every row that decides.
+- **Choice of the competitor configuration** [41]. Each competitor cell is the better of two configurations (the default and the one
+  tuned on a separate development set), chosen after the approval run, as the protocol does for the best competitor of a row; the
+  detector has one configuration. This is conservative for the detector's wins and weighs on the rows it lost or tied (M1 loses by
+  0.300 with 2 standard errors of 0.284). The tuned configurations were chosen by detection alone, without the nulls (protocol,
+  section 4.3), so a tuned configuration can go over the null ceiling and drop out of a row.
+- **Adapter defects in two competitors** [1, 2]. CJSD cannot warn without a response: its calibration leaves tau empty and the input
+  branch only runs when tau exists (competitors/methods.py, cjsd), so its zeros on the public bases and on the company are not a
+  measure. The weighted WATCH adapter fits its scale on the whole series and uses later items at the start of the target
+  (_watch_segment), so it is not strictly causal after the first input alarm. No verdict depends on either: WATCH and CTM go over the
+  null ceilings of the synthetic rows with both configurations (with the Shiryaev-Roberts threshold of the WATCH paper, 10^4, on
+  series of 18,000 scored items); where CJSD is the best allowed competitor without a response (P4 and P4L4), P4 fails on the
+  detector's own null and P4L4 is a limit row, outside the verdict. Both fixes are for version 2.
+- **Error axis** [30]. The competitors on the error axis watch the 0/1 error of an online model; the detector uses its own
+  discretized reference. Their inputs are not identical.
+- **"Tied"** [15] is the operational rule of the protocol (difference within two standard errors), not a test of equivalence. In M2
+  the tie comes from a standard error of zero (every method at 6 of 6), the degenerate case.
+- **The "e-values" of the detector** [18] are Bayes factors that restart when the evidence stops being positive; they are not e-values
+  in the strict sense, and A = 200,000 does not give a 1/A guarantee of false alarm. The name stays in the frozen code and protocol.
+
+Independence and uncertainty
+- **The 2,047 series** [23] include shuffled copies, warm-up variants and processes of the same company life; they are not 2,047
+  independent bases.
+- **The simulated company** [22] has three lives plus variants of the first; processes, episodes and the incident repeated in the
+  variants are not independent observations, and binomial intervals do not capture that. M2 "6 of 6" covers at most 4 independent
+  incidents (4 of the 6 lives share a seed) [49].
+- **Small rows** [29]. Binomial intervals: 7 of 10 goes from about 35% to 93%; 10 of 15, from 38% to 88%.
+- **One approval run.** Each row is decided at two standard errors on its own, with no correction for the 18 rows that decide.
+
+What each row measures
+- **S3 where** [7] counts a hit when every accused field is true; it does not ask for all of them. Exact equality of the set: 308 of
+  480; in ramp_all (20 fields change), the mean coverage is 6.17%. The errors: one series with no warning (sea_gradual) and one with a
+  wrong field.
+- **S4a direction** [5]. The right answer is fixed in the 209 cases scored: in the 179 numeric fields the rule of metrics/rows.py
+  counts "up" as right, and in the 30 categorical ones it counts category 0 gaining share. A constant answer would also score 1.000;
+  the row does not test falls.
+- **S4b size** [6] is read 500 items after the warning, given a valid warning and the first true field with a report; it is not the
+  size at the instant of the warning.
+- **M3 regime change** [3] accepts the same "became the new normal" record for several changes of the same field: the 10 hits rest
+  on 6 distinct records, counted per life. The variants repeat the regime change of the first life (same seed), which is real
+  dependence; in the life with the shuffled calendar the detector hit none of its 3 targets.
+- **M5 return** [10, 50]. "After the outage" in the label means after the defect goes off the air, that is, after the recovery
+  (metrics/rows.py). Observed returns: 5 of 7 in 11 to 14 hours (681 to 815 min), none within 3 hours. The null measures "returned
+  between 60 and 240 minutes after opening", which is not the same definition as the target; the row fails either way.
+- **Event F1** [14] uses its own windows (several warnings in one window count one event; extended windows on SMD, SMAP and MSL); it is
+  not comparable with the point-wise F1 of other work. With warnings restricted to the labeled duration, the detector's F1 goes from
+  0.063 to 0.045 on SMD, from 0.091 to 0.083 on SMAP and from 0.222 to 0.157 on MSL.
+- **NAB "24 of 43"** [28]: 43 is the number of events reachable after the warm-up, in 30 series; 12 events fall inside the warm-up and
+  6 of the 36 approval series are shorter than it. The set has about 72 events (P1c: 66 in 36 series with a warm-up of 500, plus 6 out
+  of reach).
+- **SMD L4** [13]: the detector finds 9 of 127 short events; the only allowed competitor is CJSD, so the label "not confirmed" depends
+  on its defect. The detector's null is not applied in limit rows, which is why it fails P4 on the null and not P4L4.
+
+What the table does not show
+- **Autocorrelation** [16]. On stationary AR(1) series with no change, the detector writes logs (tens to hundreds per series with a
+  high rho) and no alert. The nulls of the protocol do not cover this case.
+- **The extra warnings on the public bases** [17], in the training stretch, may be unlabeled changes or a reaction to
+  autocorrelation; neither is shown, and the zero on the shuffled copies does not separate the two.
+- **"Answers everything"** [12] holds for the methods and adapters of this benchmark, as output formats implemented here; it is not
+  exclusivity in the whole field, nor quality proven on every dimension.
+- **Intended use, not tested** [19]: "retrain if the relation broke, keep the model if only the input changed" and "next to an anomaly
+  detector".
+- **Dates** [21]. A hash proves content, not date. The original version of this repository is tagged v1-original; the original
+  Portuguese approval code is not published file by file.
+- UCR and Yahoo S5 are not part of the benchmark; no deep-learning detector was run; HTM runs a later htm.core than its published
+  threshold and score (protocol, section 10, v2, item 14).
+
+## Related work
+
+- **Benchmarks.** NAB (Lavin and Ahmad, "Evaluating Real-time Anomaly Detection Algorithms: the Numenta Anomaly Benchmark", IEEE ICMLA
+  2015) gives the event windows and the score of P1. SMD comes from Su et al. (KDD 2019, OmniAnomaly), SMAP and MSL from Hundman et
+  al. (KDD 2018, telemanom). Wu and Keogh ("Current Time Series Anomaly Detection Benchmarks are Flawed and are Creating the Illusion
+  of Progress", IEEE TKDE, 2023) describe flaws of these bases, such as trivial events and doubtful labels; the P rows inherit them. Van
+  den Burg and Williams ("An Evaluation of Change Point Detection Algorithms", arXiv 2003.06222, 2020) benchmark offline change point
+  detection; this benchmark is online and per field.
+- **Drift and change detectors.** Page-Hinkley (Page, Biometrika, 1954), DDM (Gama et al., SBIA 2004), ADWIN (Bifet and Gavalda, SDM
+  2007), HDDM (Frias-Blanco et al., IEEE TKDE, 2015) and KSWIN (Raab, Heusinger and Schleif, Neurocomputing, 2020), all run from River
+  (Montiel et al., JMLR, 2021). The split between a change in the input and a change in the relation with the response is the
+  "virtual" and "real" drift of the concept drift literature (Gama et al., "A Survey on Concept Drift Adaptation", ACM Computing
+  Surveys, 2014).
+- **Conformal test martingales.** Vovk et al. ("Retrain or not retrain: Conformal test martingales for change-point detection", COPA
+  2021, PMLR 152) and WATCH (Prinster, Han, Liu and Saria, "WATCH: Adaptive Monitoring for AI Deployments via Weighted-Conformal
+  Martingales", ICML 2025, PMLR 267), whose code runs here unchanged.
+- **Other methods in the table.** Isolation forest (Liu, Ting and Zhou, ICDM 2008), the matrix profile (Yeh et al., ICDM 2016) and HTM
+  (Ahmad et al., "Unsupervised real-time anomaly detection for streaming data", Neurocomputing, 2017).
 
 ## How to reproduce
 

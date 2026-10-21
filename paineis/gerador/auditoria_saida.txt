@@ -1,0 +1,2 @@
+conferido: {'numeros.json recalculado': 1, 'telas regeneradas': 8, 'vereditos': 52, 'células': 522, 'caixas de vencedor': 456, 'células de recursos': 150, 'números nos textos': 122, 'pares EN/PT': 4, 'termos EN/PT': 44, 'logo': 1}
+problemas: 0

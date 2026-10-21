@@ -1,0 +1,33 @@
+pegou     | M3 6 -> 7 registros | - Results-en: difere do gerado (-6 +7)
+pegou     | nulo de S4b 0,240 -> 0,340 | - Results-en: difere do gerado (-0.240 +0.340)
+pegou     | F1 de P4L4 0,007 -> 0,017 | - Results-en: difere do gerado (-0.007), +0.017),)
+pegou     | veredito 2 empates -> 3, 5 -> 4 (placar) | - Scorecard-en: difere do gerado (-2 +3 -5 +4)
+pegou     | veredito 2 vitórias -> 3, 1 -> 0 (tabela) | - Results-en: difere do gerado (-2 +3 -1 +0)
+pegou     | S7 180/190 -> 170/200 | - Scorecard-en: difere do gerado (-180 +170 -190 +200)
+pegou     | 2.047 -> 2.147 (placar) | - Scorecard-en: difere do gerado (-2,047 +2,147)
+pegou     | teto público 0,1 -> 0,2 (legenda) | - Results-en: difere do gerado (-0.1 +0.2)
+pegou     | M4 2 de 3 -> 3 de 3 (placar) | - Scorecard-en: difere do gerado (-2 +3)
+pegou     | 24 de 43 -> 25 de 43 só em EN | - Purpose-en: difere do gerado (-24 +25)
+pegou     | 71,2% -> 72,2% (recursos) | - Capabilities-en: difere do gerado (-71.2% +72.2%)
+pegou     | recursos: novo normal 97,8% -> 87,8% | - Capabilities-en: difere do gerado (-97.8% +87.8%)
+pegou     | recursos: direção e tamanho 100% -> 90% | - Capabilities-en: difere do gerado (-100% +90% -100% +90% -100% +90%)
+pegou     | célula do Sismo em S7 0 · 6 -> 5 · 6 | - Results-en: difere do gerado (-0 +5)
+pegou     | célula do Sismo em M4 2 de 3 -> 3 de 3 | - Results-en: difere do gerado (-2 +3)
+pegou     | hash ed41901c -> aaaa1111 em todas | - Capabilities-en: difere do gerado (-ed41901c, +aaaa1111,)
+pegou     | rótulo M1 60 min -> 90 min | - Results-en: difere do gerado (-60 +90)
+pegou     | até 20 campos -> 30 | - Scorecard-en: difere do gerado (-20 +30)
+pegou     | 26 linhas -> 27 (subtítulo) | - Results-en: difere do gerado (-26 +27)
+pegou     | arredondamento: 0,404 -> 0,405 (L1, KSWIN) | - Results-en: difere do gerado (-0.404 +0.405)
+pegou     | cabeçalho: ADWIN e KSWIN trocados | - Results-en: difere do gerado (+KSWIN -KSWIN)
+pegou     | só PT: 9 de 127 -> 8 de 127 | - Resultados-pt: difere do gerado (-9 +8)
+pegou     | teto da empresa 0,3 -> 0,4 | - Results-en: difere do gerado (-0.3): +0.4):)
+pegou     | palavra: passes -> fails num veredito | - Results-en: difere do gerado (-passes +fails -passes +fails -passes +fails)
+pegou     | nome de método: Matrix profile -> Matrix-profile (recursos) | - Capabilities-en: difere do gerado (-Matrix -profile +Matrix-profile)
+pegou     | tradução: aquecimento -> costume (placar) | - Placar-pt: difere do gerado (-aquecimento +costume)
+pegou     | texto sem número: 'not approved' -> 'approved' | - Scorecard-en: difere do gerado (-not)
+pegou     | numeros.json adulterado (S1 do Sismo) | - numeros.json dado difere do recalculado em: ['tabela']
+pegou     | logo trocado | - marca.png ausente ou diferente do logo publicado
+pegou     | auditoria sem publication e lives, sem --parcial | - faltam as pastas publication e lives: sem elas o universo (séries, S7, S3 por tipo, M3, S4a, M2) não é recalculado; pa
+pegou     | universo adulterado (séries e S7), auditoria completa | - numeros.json dado difere do recalculado em: ['universo']
+pegou     | molde com número escrito à mão | - telas.py: dígitos sem fonte no texto das telas: {'Scorecard-en': ['0', '701']}
+32 de 32 erros plantados pegos
