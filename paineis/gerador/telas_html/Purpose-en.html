@@ -50,14 +50,14 @@ a{color:#dce6ff}a:hover{color:#f1ede4}
       <span style="font-size: 17px; line-height: 1.4; color: #9c988e">warnings on shuffled copies of the same series: what it reports depends on the order of the data, which carries both changes and autocorrelation</span>
     </div>
   </div>
-  <p style="margin: 18px 0 0; font-size: 16px; line-height: 1.45; color: #9c988e">In SMD, SMAP and MSL the null includes the training stretch, which those datasets do not guarantee to be free of change; if it is logging real changes there, the rule counts them against it. That is a hypothesis we have not yet checked; another explanation is the autocorrelation of these series, since on stationary autocorrelated series with no change it also logs.</p>
+  <p style="margin: 18px 0 0; font-size: 16px; line-height: 1.45; color: #9c988e">In SMD, SMAP and MSL the null includes the training stretch, which those datasets do not guarantee to be free of change; if it is logging real changes there, the rule counts them against it. That is a hypothesis we have not yet checked; the autocorrelation of these series is at least as likely, since on stationary autocorrelated series with no change it also logs.</p>
 
   <div style="margin-top: 30px; padding-top: 22px; border-top: 1px solid #23262f; display: flex; flex-direction: column; gap: 10px">
     <div style="display: flex; align-items: center; gap: 10px">
       <span style="width: 8px; height: 8px; border-radius: 50%; background: #dce6ff; box-shadow: 0 0 18px rgba(220, 230, 255, 0.45)"></span>
       <span style="font-style: italic; font-size: 20px; color: #dce6ff">what it is for</span>
     </div>
-    <p style="margin: 0; font-size: 22px; line-height: 1.45">It is meant to work next to an anomaly detector, a pairing this benchmark does not test. The anomaly detector says something is wrong now. Sismo says what changed, where, since when and by how much; it separates an alert from a log; and it keeps slow drift instead of throwing it away.</p>
+    <p style="margin: 0; font-size: 22px; line-height: 1.45">It is meant to work next to an anomaly detector, a pairing this benchmark does not test. The anomaly detector says something is wrong now. Sismo says what changed, where, since when and by how much; it separates an alert from a log; and it keeps slow drift instead of throwing it away. None of these pieces is new; it puts them in one warning.</p>
   </div>
 
   <div style="margin-top: 26px; display: flex; flex-direction: column; gap: 8px">

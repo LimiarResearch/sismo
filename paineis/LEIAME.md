@@ -63,6 +63,12 @@ O repositório e o cartão do Hugging Face deste pacote são a versão anterior 
 
 Atualização de 21/10/2026: as mudanças de documentação entraram no README, na seção "Known limitations and caveats", com o número de cada item desta lista; a versão original do repositório é o commit `db2b946` (14/10/2026), no histórico. Os arquivos congelados e a rodada arquivada não mudaram.
 
+Atualização de 21/10/2026, depois de uma pesquisa sobre trabalhos anteriores: três telas em cada idioma mudaram só no texto, sem nenhum número novo.
+- Recursos: o título "O único aqui que devolve tudo" virou "Tudo num aviso só", com "Nenhuma das peças é nova"; a legenda diz que um CUSUM bilateral pode dar direção e tamanho, não calculados nesta bancada, e que o CJSD (Oda) e o WATCH (Prinster et al.) são os parentes publicados mais próximos da separação entre alerta e log.
+- Propósito: "Nenhuma dessas peças é nova; ele as junta num aviso só", e a autocorrelação passa a ser "no mínimo tão provável" quanto as mudanças sem rótulo.
+- Resultados: a legenda diz de quem são o CJSD e o WATCH.
+A auditoria, os testes de mutação (32 de 32), o exaustivo (0 sobreviventes) e a conferência dos prints (0 pixel) foram rodados de novo.
+
 As correções de código ficam para a v2:
 - adaptadores do CJSD e do WATCH;
 - associação exclusiva no M3;

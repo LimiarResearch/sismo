@@ -90,7 +90,8 @@ protocol/history/frozen_approval_original.sha256 (approval code); the seeds are 
 
 In results/publication/table.txt, method names are the identifiers in the code. The 15 competitor methods: page_hinkley, cusum, ewma, adwin, kswin, ddm,
 hddm_a, hddm_w (river, or exact replicas of it), per_field_test (a per-field two-sample test, KS for numbers and chi-square for
-categories, Bonferroni), cjsd, watch and ctm (WATCH and CTM, its unweighted variant, the baseline of the WATCH paper; CTM runs only
+categories, Bonferroni), cjsd (the Conditional Jensen-Shannon Discrepancy of Oda, arXiv 2608.19885, on sliding windows, as the protocol
+describes), watch and ctm (WATCH and CTM, its unweighted variant, the baseline of the WATCH paper; CTM runs only
 where there is a response), isolation_forest, matrix_profile and htm (HTM, the htmcore detector of the NAB community). The suffix
 /field means the method watches each field (a warning names the field); /error means it watches the error of an online model of the
 response. The text after "|" is the configuration; "detector|default" is the detector with its single configuration.
@@ -183,6 +184,16 @@ What the table does not show
   (Montiel et al., JMLR, 2021). The split between a change in the input and a change in the relation with the response is the
   "virtual" and "real" drift of the concept drift literature (Gama et al., "A Survey on Concept Drift Adaptation", ACM Computing
   Surveys, 2014).
+- **Real versus virtual drift, online.** The split between an alert (the relation with the outcome broke) and a log (only the input
+  moved) is not new. Oda's CJSD ("Separating Covariate Shift from Mechanism Change with Two Discriminators", arXiv 2608.19885, 2026)
+  splits a dataset difference exactly into a covariate axis and a functional axis, and a companion preprint by the same author ("What
+  Changed? Drift Detection with Real, Virtual, and Incomparable Diagnosis", arXiv 2609.27865) uses the two axes to tell real, virtual
+  and incomparable drift apart. CJSD is one of the 15 competitors
+  here. Both preprints have a single author and were not peer reviewed when this benchmark ran. What the detector adds is doing the
+  split per field, online, and naming the field whose relation broke; its per-field relation axis looks at P(y | x_j), not P(y | X),
+  so a change that lives only in an interaction of fields is missed (limit L3, XOR).
+- **Per-field CUSUM.** One two-sided CUSUM per field, with Page's last-zero estimate of the start, already gives which field, since
+  when, which way and, from the mean after the shift, how much; the runner here reports only the field and the start for CUSUM.
 - **Conformal test martingales.** Vovk et al. ("Retrain or not retrain: Conformal test martingales for change-point detection", COPA
   2021, PMLR 152) and WATCH (Prinster, Han, Liu and Saria, "WATCH: Adaptive Monitoring for AI Deployments via Weighted-Conformal
   Martingales", ICML 2025, PMLR 267), whose code runs here unchanged.
